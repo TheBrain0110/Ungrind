@@ -5369,7 +5369,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 33
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 50
             },
             "Manual_Tags": {
                 "GameplayTags": [

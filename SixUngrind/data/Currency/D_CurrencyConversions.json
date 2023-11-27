@@ -23,7 +23,7 @@
             "ConvertedCurrency": {
                 "RowName": "Refund"
             },
-            "ConvertedAmount": 1
+            "ConvertedAmount": 10
         },
         {
             "Name": "Currency_Exchange",
@@ -34,14 +34,14 @@
             "ConvertedCurrency": {
                 "RowName": "Credits"
             },
-            "ConvertedAmount": 5
+            "ConvertedAmount": 15
         },
         {
             "Name": "RenRepair",
             "StartingCurrency": {
                 "RowName": "Credits"
             },
-            "StartingAmount": 15,
+            "StartingAmount": 5,
             "ConvertedCurrency": {
                 "RowName": "Credits"
             }

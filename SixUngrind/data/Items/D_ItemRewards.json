@@ -166,8 +166,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 9,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 14,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -180,7 +180,7 @@
                 },
                 {
                     "Item": {
-                        "RowName": "Fiber",
+                        "RowName": "Stick",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "DropChance": 75,
@@ -1109,8 +1109,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 8,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1280,8 +1306,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 4,
+                    "MinRandomStackCount": 4,
+                    "MaxRandomStackCount": 8,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1451,8 +1503,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 8,
-                    "MaxRandomStackCount": 20,
+                    "MinRandomStackCount": 18,
+                    "MaxRandomStackCount": 24,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 18,
+                    "MaxRandomStackCount": 24,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -1622,8 +1700,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 6,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 8,
+                    "MaxRandomStackCount": 12,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -5295,8 +5399,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 7,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6234,8 +6364,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 6,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6405,8 +6561,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6519,8 +6701,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 7,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6633,8 +6841,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6804,8 +7038,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -6975,8 +7235,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7146,8 +7432,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7317,8 +7629,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7431,8 +7769,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 4,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 12,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7545,8 +7909,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 12,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -7602,8 +7992,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 1,
+                    "MinRandomStackCount": 5,
+                    "MaxRandomStackCount": 15,
                     "bRewardsScale": false,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -8567,8 +8957,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 4,
-                    "MaxRandomStackCount": 8,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 12,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -8624,8 +9040,34 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 5,
-                    "MaxRandomStackCount": 10,
+                    "MinRandomStackCount": 8,
+                    "MaxRandomStackCount": 16,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 75,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 11,
+                    "MaxRandomStackCount": 22,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -10816,8 +11258,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 9,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -10873,8 +11315,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 3,
-                    "MaxRandomStackCount": 7,
+                    "MinRandomStackCount": 7,
+                    "MaxRandomStackCount": 11,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -10987,8 +11429,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -11044,8 +11486,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -11101,8 +11543,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 2,
-                    "MaxRandomStackCount": 5,
+                    "MinRandomStackCount": 6,
+                    "MaxRandomStackCount": 10,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -11158,8 +11600,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 10,
-                    "MaxRandomStackCount": 20,
+                    "MinRandomStackCount": 12,
+                    "MaxRandomStackCount": 24,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",
@@ -13172,6 +13614,32 @@
                 },
                 {
                     "Item": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "DropChance": 100,
+                    "DropChanceAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "RequiredStatToDrop": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "MinRandomStackCount": 25,
+                    "MaxRandomStackCount": 50,
+                    "bRewardsScale": true,
+                    "StackAdditiveStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    },
+                    "StackMultiplicativeStat": {
+                        "RowName": "None",
+                        "DataTableName": "D_Stats"
+                    }
+                },
+                {
+                    "Item": {
                         "RowName": "Fiber_Seed",
                         "DataTableName": "D_ItemTemplate"
                     },
@@ -13184,8 +13652,8 @@
                         "RowName": "None",
                         "DataTableName": "D_Stats"
                     },
-                    "MinRandomStackCount": 1,
-                    "MaxRandomStackCount": 2,
+                    "MinRandomStackCount": 2,
+                    "MaxRandomStackCount": 3,
                     "bRewardsScale": true,
                     "StackAdditiveStat": {
                         "RowName": "None",

@@ -9079,7 +9079,7 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseChanceToMineVoxelInstantly_+%\")": 1
+                        "(Value=\"BaseChanceToMineVoxelInstantly_+%\")": 10
                     },
                     "GrantedFlags": []
                 }
@@ -9165,7 +9165,7 @@
             "Rewards": [
                 {
                     "GrantedStats": {
-                        "(Value=\"BaseChanceToFellTreeInstantly_%\")": 1
+                        "(Value=\"BaseChanceToFellTreeInstantly_%\")": 10
                     },
                     "GrantedFlags": []
                 }
