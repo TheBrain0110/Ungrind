@@ -119,7 +119,7 @@
         {
             "Name": "Composter_Electric",
             "DefaultRecipeSet": {
-                "RowName": "Composter"
+                "RowName": "Composter_Electric"
             },
             "bRequiresShelter": true,
             "AutoSelectRecipe": true,
