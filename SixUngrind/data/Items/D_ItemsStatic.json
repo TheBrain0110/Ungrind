@@ -51192,6 +51192,9 @@
             "Audio": {
                 "RowName": "MetalDeployable"
             },
+            "AdditionalStats": {
+                "(Value=\"BaseInventorySpoilRate_+%\")": 5000
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {

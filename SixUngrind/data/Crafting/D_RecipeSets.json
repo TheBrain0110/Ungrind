@@ -75,6 +75,14 @@
             "bAllowRefundOfRecipesOnDestroy": false
         },
         {
+            "Name": "Composter_Electric",
+            "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Composter_Electric-RecipeSetName\", \"Adv Electric Composter\")",
+            "DisplayText": "NSLOCTEXT(\"D_RecipeSets\", \"Composter_Electric-DisplayText\", \"Advanced Powered Composter. Can create both Fertilizer and Biofuel.\")",
+            "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Composter.ITEM_Composter",
+            "ExperienceMultiplier": 0.20000000298023224,
+            "bAllowRefundOfRecipesOnDestroy": false
+        },
+        {
             "Name": "Material_Processor",
             "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Material_Processor-RecipeSetName\", \"Material Processor\")",
             "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Material_Processor.ITEM_Material_Processor",

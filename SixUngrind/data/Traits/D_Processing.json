@@ -115,11 +115,11 @@
         {
             "Name": "Composter_Electric",
             "DefaultRecipeSet": {
-                "RowName": "Composter"
+                "RowName": "Composter_Electric"
             },
             "bRequiresShelter": true,
             "AutoSelectRecipe": true,
-            "MaxMilliwattage": 1500
+            "MaxMilliwattage": 1000
         },
         {
             "Name": "Material_Processor",

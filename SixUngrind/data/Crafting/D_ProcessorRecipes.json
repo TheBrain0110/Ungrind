@@ -8329,6 +8329,41 @@
             }
         },
         {
+            "Name": "Biofuel1_Adv",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Raw_Meat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                }
+            ],
+            "ResourceInputs": [
+                {
+                    "Type": "Water",
+                    "RequiredUnits": 400
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 400
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
             "Name": "Biofuel5",
             "RecipeSets": [
                 {
@@ -8359,6 +8394,41 @@
                 {
                     "Type": "Fuel",
                     "RequiredUnits": 200
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
+            "Name": "Biofuel5_Adv",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Cooked_Meat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "ResourceInputs": [
+                {
+                    "Type": "Water",
+                    "RequiredUnits": 400
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 400
                 }
             ],
             "Audio": {
@@ -8403,6 +8473,41 @@
             }
         },
         {
+            "Name": "Biofuel2_Adv",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "ResourceInputs": [
+                {
+                    "Type": "Water",
+                    "RequiredUnits": 200
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 200
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
             "Name": "Biofuel3",
             "RecipeSets": [
                 {
@@ -8433,6 +8538,45 @@
                 {
                     "Type": "Fuel",
                     "RequiredUnits": 100
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
+            "Name": "Composter_Stick_Adv",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                }
+            ],
+            "ResourceInputs": [
+                {
+                    "Type": "Water",
+                    "RequiredUnits": 100
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Tree_Sap",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": [],
+                    "Alterations": []
                 }
             ],
             "Audio": {
@@ -8514,6 +8658,41 @@
             }
         },
         {
+            "Name": "Biofuel6_Adv",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Spoiled_Meat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "ResourceInputs": [
+                {
+                    "Type": "Water",
+                    "RequiredUnits": 200
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 200
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
             "Name": "Biofuel7",
             "RecipeSets": [
                 {
@@ -8588,6 +8767,41 @@
             }
         },
         {
+            "Name": "Biofuel8_Adv",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Basic_Fertilizer",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "ResourceInputs": [
+                {
+                    "Type": "Water",
+                    "RequiredUnits": 500
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 500
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
             "Name": "Biofuel9",
             "RecipeSets": [
                 {
@@ -8622,6 +8836,379 @@
             ],
             "Audio": {
                 "RowName": "Composter"
+            }
+        },
+        {
+            "Name": "Biofuel9_Adv",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wheat",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "ResourceInputs": [
+                {
+                    "Type": "Water",
+                    "RequiredUnits": 200
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 200
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
+            "Name": "Biofuel10",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Yeast",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Tree_Sap",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 100
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
+            "Name": "Biofuel10_Adv",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Yeast",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "ResourceInputs": [
+                {
+                    "Type": "Water",
+                    "RequiredUnits": 200
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 200
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
+            "Name": "Compost_Reed",
+            "RequiredMillijoules": 2000,
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Wood",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Reed_Flower",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "WoodComposter"
+            }
+        },
+        {
+            "Name": "Compost_Lily",
+            "RequiredMillijoules": 2000,
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Wood",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Lily",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "WoodComposter"
+            }
+        },
+        {
+            "Name": "Compost_Sponge",
+            "RequiredMillijoules": 2000,
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Wood",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Sponge",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "WoodComposter"
+            }
+        },
+        {
+            "Name": "Compost_Tea",
+            "RequiredMillijoules": 2000,
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Wood",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "GreenTea",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "WoodComposter"
+            }
+        },
+        {
+            "Name": "Compost_Gorse",
+            "RequiredMillijoules": 2000,
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Wood",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "WildTea",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "WoodComposter"
+            }
+        },
+        {
+            "Name": "Compost_Cocoa",
+            "RequiredMillijoules": 2000,
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Wood",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Cocoa",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "WoodComposter"
+            }
+        },
+        {
+            "Name": "Compost_Coffee",
+            "RequiredMillijoules": 2000,
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Wood",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Coffee",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Spoiled_Plants",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "WoodComposter"
             }
         },
         {
@@ -25269,6 +25856,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Composter_Wood",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Composter_Electric",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -48758,7 +49349,7 @@
                         "RowName": "Tree_Sap",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 2,
+                    "Count": 5,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -56507,6 +57098,10 @@
                 {
                     "RowName": "Material_Processor",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -56557,6 +57152,35 @@
                 {
                     "Type": "Fuel",
                     "RequiredUnits": 500
+                }
+            ],
+            "Audio": {
+                "RowName": "Composter"
+            }
+        },
+        {
+            "Name": "Seed_Biofuel_Adv",
+            "RecipeSets": [
+                {
+                    "RowName": "Composter_Electric",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Seed_Oil",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [],
+            "ResourceOutputs": [
+                {
+                    "Type": "Fuel",
+                    "RequiredUnits": 1000
                 }
             ],
             "Audio": {
