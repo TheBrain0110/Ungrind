@@ -6583,7 +6583,64 @@
                 {
                     "RowName": "Mortar_And_Pestle",
                     "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Silica",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
                 },
+                {
+                    "Element": {
+                        "RowName": "Aluminium",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Charcoal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Carbon_Paste",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MortarPestle"
+            }
+        },
+        {
+            "Name": "Carbon_Paste_Adv",
+            "Requirement": {
+                "RowName": "Carbon_Paste"
+            },
+            "RequiredMillijoules": 1250,
+            "RecipeSets": [
                 {
                     "RowName": "Material_Processor",
                     "DataTableName": "D_RecipeSets"
@@ -6611,7 +6668,7 @@
                         "RowName": "Organic_Resin",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2,
+                    "Count": 1,
                     "DynamicProperties": []
                 },
                 {
@@ -6629,7 +6686,7 @@
                         "RowName": "Carbon_Paste",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 1,
+                    "Count": 2,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
@@ -9327,6 +9384,56 @@
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Organic_Resin",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MortarPestle"
+            }
+        },
+        {
+            "Name": "Organic_Resin_Adv",
+            "RequiredMillijoules": 500,
+            "RecipeSets": [
+                {
+                    "RowName": "Material_Processor",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Charcoal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Crushed_Bone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
                     "DynamicProperties": []
                 }
             ],
@@ -12390,10 +12497,6 @@
             "RecipeSets": [
                 {
                     "RowName": "Mortar_And_Pestle",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
-                    "RowName": "Material_Processor",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -40724,10 +40827,6 @@
         },
         {
             "Name": "Layered_Plating",
-            "SessionRequirement": {
-                "DataTableName": "D_SessionFlags",
-                "RowName": "Recipe_Layered_Plating"
-            },
             "RequiredMillijoules": 25000,
             "RecipeSets": [
                 {

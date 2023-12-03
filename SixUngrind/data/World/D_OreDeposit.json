@@ -213,7 +213,7 @@
             "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Salt_Rocks.M_DeepMiningOreDeposit_Salt_Rocks",
             "MinOreAvailable": 45000,
             "MaxOreAvailable": 50000,
-            "MiningTimeSeconds": 15
+            "MiningTimeSeconds": 6
         },
         {
             "Name": "Titanium",
@@ -230,7 +230,7 @@
             "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Titanium_Rocks.M_DeepMiningOreDeposit_Titanium_Rocks",
             "MinOreAvailable": 40000,
             "MaxOreAvailable": 55000,
-            "MiningTimeSeconds": 35
+            "MiningTimeSeconds": 40
         },
         {
             "Name": "Platinum",
