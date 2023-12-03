@@ -230,7 +230,7 @@
             "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Salt_Rocks.M_DeepMiningOreDeposit_Salt_Rocks",
             "MinOreAvailable": -1,
             "MaxOreAvailable": -1,
-            "MiningTimeSeconds": 15
+            "MiningTimeSeconds": 6
         },
         {
             "Name": "Stone",
