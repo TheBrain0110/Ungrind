@@ -9403,7 +9403,7 @@
             }
         },
         {
-            "Name": "Organic_Resin_Adv",
+            "Name": "Organic_Resin_2",
             "RequiredMillijoules": 500,
             "RecipeSets": [
                 {
@@ -9444,6 +9444,48 @@
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MortarPestle"
+            }
+        },
+        {
+            "Name": "Organic_Resin_3",
+            "RequiredMillijoules": 500,
+            "RecipeSets": [
+                {
+                    "RowName": "Material_Processor",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Silica",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Advanced_Leather",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Organic_Resin",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 2,
                     "DynamicProperties": [],
                     "Alterations": []
                 }
