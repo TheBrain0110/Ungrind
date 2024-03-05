@@ -13270,8 +13270,8 @@
         },
         {
             "Name": "BaseLavaSlugExtraDamage_+%",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseLavaSlugExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Viscids\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseLavaSlugExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Viscids\")"
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseLavaSlugExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Ignari\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseLavaSlugExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Ignari\")"
         },
         {
             "Name": "LavaSlugExtraDamageResistance_+%",
@@ -13282,8 +13282,8 @@
         },
         {
             "Name": "BaseLavaSlugExtraDamageResistance_+%",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseLavaSlugExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Viscids\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseLavaSlugExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Viscids\")"
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseLavaSlugExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Ignari\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseLavaSlugExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Ignari\")"
         },
         {
             "Name": "WorldIsOutpostProspect_?",
@@ -13513,6 +13513,668 @@
             "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseSickleDamage_+%-NegativeDescription\", \"-{0}% Damage with Sickles\")",
             "StatCategory": {
                 "RowName": "Melee_DMG"
+            }
+        },
+        {
+            "Name": "BaseTurretProjectileLaunchForce_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretProjectileLaunchForce_+-PositiveDescription\", \"+{0} Launch Force\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretProjectileLaunchForce_+-NegativeDescription\", \"-{0} Launch Force\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 10000
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretProjectileLaunchForce_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretProjectileLaunchForce_+-Title\", \"Force Turret Projectiles Launch With\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretBeginFireAngle_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretBeginFireAngle_+-PositiveDescription\", \"{0} Begin Fire Angle\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretBeginFireAngle_+-NegativeDescription\", \"-{0} Begin Fire Angle\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretBeginFireAngle_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretBeginFireAngle_+-Title\", \"How Close To Lock Before Turret Begin Firing\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretMaxRange_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMaxRange_+-PositiveDescription\", \"{0} m Max Range\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMaxRange_+-NegativeDescription\", \"-{0} m Max Range\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 10000
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretMaxRange_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretMaxRange_+-Title\", \"Maximum Range\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretMoveSpeed_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMoveSpeed_+-PositiveDescription\", \"{0} Rotation Degrees Per Second\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMoveSpeed_+-NegativeDescription\", \"-{0} Rotation Degrees Per Second\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretMoveSpeed_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretMoveSpeed_+-Title\", \"Turret Movement Speed\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretCoolDownPeriod_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretCoolDownPeriod_+-PositiveDescription\", \"{0} Seconds Cooldown Between Bursts\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretCoolDownPeriod_+-NegativeDescription\", \"-{0} Seconds Cooldown Between Bursts\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretCoolDownPeriod_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretCoolDownPeriod_+-Title\", \"Turret Cooldown Time Between Bursts\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretBurstFireDelay_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretBurstFireDelay_+-PositiveDescription\", \"{0} Seconds Delay Between Shots\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretBurstFireDelay_+-NegativeDescription\", \"-{0} Seconds Delay Between Shots\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretBurstFireDelay_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretBurstFireDelay_+-Title\", \"Turret Delay Between Shots In a Burst\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretBurstFireShots_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretBurstFireShots_+-PositiveDescription\", \"{0} Shots In A Burst\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretBurstFireShots_+-NegativeDescription\", \"-{0} Shots In A Burst\")",
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretBurstFireShots_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretBurstFireShots_+-Title\", \"Turret Number Of Shots In a Burst\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretSpreadYaw_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretSpreadYaw_+-PositiveDescription\", \"{0} Degrees Innaccuracy Yaw\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretSpreadYaw_+-NegativeDescription\", \"-{0} Degrees Innaccuracy Yaw\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretSpreadYaw_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretSpreadYaw_+-Title\", \"Turret Yaw Inaccuracy\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretSpreadPitch_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretSpreadPitch_+-PositiveDescription\", \"{0} Degrees Innaccuracy Pitch\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretSpreadPitch_+-NegativeDescription\", \"-{0} Degrees Innaccuracy Pitch\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretSpreadPitch_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretSpreadPitch_+-Title\", \"Turret Pitch Inaccuracy\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretMaxPitch_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMaxPitch_+-PositiveDescription\", \"{0} Max Pitch Angle\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMaxPitch_+-NegativeDescription\", \"-{0} Max Pitch Angle\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretMaxPitch_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretMaxPitch_+-Title\", \"Turret Max Pitch\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretMinPitch_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMinPitch_+-PositiveDescription\", \"{0} Min Pitch Angle\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMinPitch_+-NegativeDescription\", \"-{0} Min Pitch Angle\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretMinPitch_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretMinPitch_+-Title\", \"Turret Min Pitch\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseTurretMaxYaw_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMaxYaw_+-PositiveDescription\", \"{0} Min Yaw Angle\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTurretMaxYaw_+-NegativeDescription\", \"-{0} Min Yaw Angle\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "TurretMaxYaw_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TurretMaxYaw_+-Title\", \"Turret Max Yaw\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "MiningLimestoneRewards_%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mining"
+            }
+        },
+        {
+            "Name": "BaseMiningLimestoneRewards_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMiningLimestoneRewards_+%-PositiveDescription\", \"+{0}% Yield from Mining Limestone\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMiningLimestoneRewards_+%-NegativeDescription\", \"-{0}% Yield from Mining Limestone\")",
+            "StatCategory": {
+                "RowName": "Mining"
+            }
+        },
+        {
+            "Name": "AttacksCauseBeeSwarm_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"AttacksCauseBeeSwarm_%-Title\", \"Chance Attacks will Infest target with a Bee Swarm\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseAttacksCauseBeeSwarm_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAttacksCauseBeeSwarm_%-PositiveDescription\", \"{0}% chance to Infest the target with a Bee Swarm on Hit with Attacks\")",
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BeeExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"BeeExtraDamage_+%-Title\", \"Bee\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseBeeExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseBeeExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Bees\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseBeeExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Bees\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BeeExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"BeeExtraDamageResistance_+%-Title\", \"Bee\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseBeeExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseBeeExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Bees\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseBeeExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Bees\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "QueenBeeDropChance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"QueenBeeDropChance_%-Title\", \"Queen Bee Loot Chance\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "StatCategory": {
+                "RowName": "Generic_Harvesting"
+            }
+        },
+        {
+            "Name": "BaseQueenBeeDropChance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseQueenBeeDropChance_%-PositiveDescription\", \"{0}% chance to find additional Queen Bees when Looting Beehives\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseQueenBeeDropChance_%-NegativeDescription\", \"-{0}% chance to find additional Queen Bees when Looting Beehives\")",
+            "StatCategory": {
+                "RowName": "Generic_Harvesting"
+            }
+        },
+        {
+            "Name": "WildHoneycombYield_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"WildHoneycombYield_+%-Title\", \"Wild Honeycomb Yield\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Farming"
+            }
+        },
+        {
+            "Name": "BaseWildHoneycombYield_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseWildHoneycombYield_+%-PositiveDescription\", \"+{0}% Wild Honeycomb Yield\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseWildHoneycombYield_+%-NegativeDescription\", \"-{0}% Wild Honeycomb Yield\")",
+            "StatCategory": {
+                "RowName": "Farming"
+            }
+        },
+        {
+            "Name": "ReinforcedBuilding_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ReinforcedBuilding_+-Title\", \"Building Tier\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Crafting"
+            }
+        },
+        {
+            "Name": "BaseReinforcedBuilding_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseReinforcedBuilding_+-PositiveDescription\", \"+{0} Building Tier\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseReinforcedBuilding_+-NegativeDescription\", \"-{0} Building Tier\")",
+            "StatCategory": {
+                "RowName": "Crafting"
+            }
+        },
+        {
+            "Name": "BaseTrailBeaconMaxPlacementDistance_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTrailBeaconMaxPlacementDistance_+-PositiveDescription\", \"{0}m Max Trail Beacon Placement Distance \")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTrailBeaconMaxPlacementDistance_+-NegativeDescription\", \"-{0}m Max Trail Beacon Placement Distance\")",
+            "DisplayOperations": [
+                {
+                    "Operation": "Division",
+                    "Value": 100
+                }
+            ],
+            "StatCategory": {
+                "RowName": "Deployable"
+            },
+            "bHideStatInUserInterface": true
+        },
+        {
+            "Name": "BaseCreatureSize_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCreatureSize_+%-PositiveDescription\", \"+{0}% Size Increase\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCreatureSize_+%-NegativeDescription\", \"+{0}% Size Decrease\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "CreatureSize_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"CreatureSize_+%-Title\", \"Creature Size\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BasePurpleExoticRewardChance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePurpleExoticRewardChance_%-PositiveDescription\", \"{0}% Chance to Drop Purple Exotics on Death\")",
+            "StatCategory": {
+                "RowName": "Generic_Harvesting"
+            }
+        },
+        {
+            "Name": "PurpleExoticRewardChance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PurpleExoticRewardChance_%-Title\", \"Chance to Drop Purple Exotics on Death\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Generic_Harvesting"
+            }
+        },
+        {
+            "Name": "BaseRedExoticRewardChance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRedExoticRewardChance_%-PositiveDescription\", \"{0}% Chance to Drop Purple Exotics on Death\")",
+            "StatCategory": {
+                "RowName": "Generic_Harvesting"
+            }
+        },
+        {
+            "Name": "RedExoticRewardChance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"RedExoticRewardChance_%-Title\", \"Chance to Drop Purple Exotics on Death\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Generic_Harvesting"
+            }
+        },
+        {
+            "Name": "ExoticRewardType_Enum",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Item"
+            }
+        },
+        {
+            "Name": "BaseAttacksCauseExoticDebuff_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAttacksCauseExoticDebuff_%-PositiveDescription\", \"{0}% Chance to Apply an Exotic Debuff on Hit\")",
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "AttacksCauseExoticDebuff_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"AttacksCauseExoticDebuff_%-Title\", \"Chance to Apply an Exotic Debuff on Hit\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseAttacksCauseRedExoticDebuff_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAttacksCauseRedExoticDebuff_%-PositiveDescription\", \"{0}% Chance to Apply a Red Exotic Debuff on Hit\")",
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "AttacksCauseRedExoticDebuff_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"AttacksCauseRedExoticDebuff_%-Title\", \"Chance to Apply a Red Exotic Debuff on Hit\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseMiniHippoExtraDamage_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMiniHippoExtraDamage_+%-PositiveDescription\", \"+{0}% Damage vs Mini Hippos\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMiniHippoExtraDamage_+%-NegativeDescription\", \"-{0}% Damage vs Mini Hippos\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "MiniHippoExtraDamage_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"MiniHippoExtraDamage_+%-Title\", \"Damage vs Mini Hippos\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseMiniHippoExtraDamageResistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMiniHippoExtraDamageResistance_+%-PositiveDescription\", \"+{0}% Resistance vs Mini Hippos\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMiniHippoExtraDamageResistance_+%-NegativeDescription\", \"-{0}% Resistance vs Mini Hippos\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "MiniHippoExtraDamageResistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"MiniHippoExtraDamageResistance_+%-Title\", \"Resistance vs Mini Hippos\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseMiniHippoSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "MiniHippoSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseComfortLevel_+",
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "ComfortLevel_+",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseEnergyNetworkModifier_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseEnergyNetworkModifier_+%-PositiveDescription\", \"+{0}% Energy Flow Rate\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseEnergyNetworkModifier_+%-NegativeDescription\", \"-{0}% Energy Flow Rate\")",
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "EnergyNetworkModifier_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"EnergyNetworkModifier_+%-Title\", \"Energy Flow Rate\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseEnergyBrownoutCraftingSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseEnergyBrownoutCraftingSpeed_+%-PositiveDescription\", \"+{0}% Crafting Speed during Energy Shortage\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseEnergyBrownoutCraftingSpeed_+%-NegativeDescription\", \"-{0}% Crafting Speed during Energy Shortage\")",
+            "StatCategory": {
+                "RowName": "Crafting"
+            }
+        },
+        {
+            "Name": "BaseWaterBrownoutCraftingSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseWaterBrownoutCraftingSpeed_+%-PositiveDescription\", \"+{0}% Crafting Speed during Water Shortage\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseWaterBrownoutCraftingSpeed_+%-NegativeDescription\", \"-{0}% Crafting Speed during Water Shortage\")",
+            "StatCategory": {
+                "RowName": "Crafting"
+            }
+        },
+        {
+            "Name": "BaseWaterNetworkModifier_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseWaterNetworkModifier_+%-PositiveDescription\", \"+{0}% Water Flow Rate\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseWaterNetworkModifier_+%-NegativeDescription\", \"-{0}% Water Flow Rate\")",
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "WaterNetworkModifier_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"WaterNetworkModifier_+%-Title\", \"Water Flow Rate\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseElectronicLightEffectiveness_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectronicLightEffectiveness_+%-PositiveDescription\", \"+{0}% Electronic Light Effectiveness\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectronicLightEffectiveness_+%-NegativeDescription\", \"-{0}% Electronic Light Effectiveness\")",
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "ElectronicLightEffectiveness_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ElectronicLightEffectiveness_+%-Title\", \"Electronic Light Effectiveness\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "BaseAuraRange_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAuraRange_+%-PositiveDescription\", \"+{0}% Electronic Light Effectiveness\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAuraRange_+%-NegativeDescription\", \"-{0}% Electronic Light Effectiveness\")",
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "AuraRange_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"AuraRange_+%-Title\", \"Electronic Light Effectiveness\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Deployable"
             }
         }
     ]

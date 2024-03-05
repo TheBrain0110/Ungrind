@@ -85,6 +85,12 @@
         },
         {
             "Name": "Device_Upgrade"
+        },
+        {
+            "Name": "Turret"
+        },
+        {
+            "Name": "BeehiveUpgrades"
         }
     ]
 }

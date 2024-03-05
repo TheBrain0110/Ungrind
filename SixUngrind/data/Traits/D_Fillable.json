@@ -237,6 +237,70 @@
                 "Water"
             ],
             "MaximumStoredUnits": 10000
+        },
+        {
+            "Name": "Battery_T3",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                "Energy"
+            ],
+            "MaximumStoredUnits": 25000
+        },
+        {
+            "Name": "Battery_Shelf_T3",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                "Energy"
+            ],
+            "MaximumStoredUnits": 1000000
+        },
+        {
+            "Name": "Battery_T4",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                "Energy"
+            ],
+            "MaximumStoredUnits": 3000000
+        },
+        {
+            "Name": "Battery_Shelf_T4",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                "Energy"
+            ],
+            "MaximumStoredUnits": 6000000
+        },
+        {
+            "Name": "BatteryTest",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                "Energy"
+            ],
+            "MaximumStoredUnits": 6000000
+        },
+        {
+            "Name": "Water_Barrel",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                "Water"
+            ],
+            "MaximumStoredUnits": 300000
+        },
+        {
+            "Name": "Rain_Reservoir_T3",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                "Water"
+            ],
+            "MaximumStoredUnits": 150000
+        },
+        {
+            "Name": "Water_Purifier_T2",
+            "Behaviour": "/Game/BP/Behaviours/Fillable/BP_FillableComponent.BP_FillableComponent_C",
+            "ResourceTypes": [
+                "Water"
+            ],
+            "MaximumStoredUnits": 10000
         }
     ]
 }

@@ -240,7 +240,7 @@
             },
             "Byproducts": [
                 {
-                    "RowName": "Glass_Bottle_Beer",
+                    "RowName": "Glass_Bottle",
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
@@ -258,7 +258,7 @@
             },
             "Byproducts": [
                 {
-                    "RowName": "Glass_Bottle_Wine",
+                    "RowName": "Glass_Bottle",
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
@@ -2617,6 +2617,287 @@
                 },
                 "ModifierLifetime": 600
             }
+        },
+        {
+            "Name": "Smoked_Giant_Steak",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Giant_Steak"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Smoked_Fatty_Tbone",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Fatty_Tbone"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Smoked_Gamey_Meat",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Gamey_Meat"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Smoked_Stringy_Meat",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Stringy_Meat"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Smoked_Soft_Meat",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Soft_Meat"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Smoked_White_Meat",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_White_Meat"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Smoked_Freshwater_Fillet",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Freshwater_Fillet"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Smoked_Saltwater_Fillet",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Saltwater_Fillet"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Dried_Meat_Generic",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseHealthRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Dried_Meat_Generic"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Smoked_Meat_Generic",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Meat_Generic"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Meta_SugarCane_Seed",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "SugarCane_Seed_Pack",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Honey_Jar",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 40
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Honey_Jar"
+                },
+                "ModifierLifetime": 900
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Glass_Jar",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Honey",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Honey"
+                },
+                "ModifierLifetime": 60
+            }
+        },
+        {
+            "Name": "Smoked_Bacon",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 200,
+                "(Value=\"BaseHealthRecovery_+\")": 30
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Smoked_Bacon"
+                },
+                "ModifierLifetime": 1200
+            }
+        },
+        {
+            "Name": "Honey_Pastry",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 150
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Honey_Pastry"
+                },
+                "ModifierLifetime": 900
+            }
+        },
+        {
+            "Name": "Honey_Mead",
+            "Stats": {
+                "(Value=\"BaseWaterRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Honey_Mead"
+                },
+                "ModifierLifetime": 1000
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Glass_Bottle",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Food_Honey_Bar",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50,
+                "(Value=\"BaseWaterRecovery_+\")": 20
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Honey_Bar"
+                },
+                "ModifierLifetime": 600
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Thermos_Honey_Tea",
+            "Stats": {
+                "(Value=\"BaseWaterRecovery_+\")": 300
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Thermos_HoneyTea"
+                },
+                "ModifierLifetime": 1200
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Thermos",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Bramble_Seed",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Bramble_Seed_Pack",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Coconut_Seed",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Coconut_Seed_Pack",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
         }
     ]
 }

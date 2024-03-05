@@ -1089,16 +1089,16 @@
                 "Value": "General"
             },
             "SlotTemplate": {
-                "RowName": "Any_Ammo"
+                "RowName": "Any_Bow_Attachment"
             },
             "StartingSlots": 2,
             "SlotOverrides": [
                 {
                     "Query": {
-                        "RowName": "Any_Bow_Attachment",
+                        "RowName": "Any_Ammo",
                         "DataTableName": "D_TagQueries"
                     },
-                    "Location": 1
+                    "Location": 0
                 }
             ]
         },
@@ -1358,7 +1358,7 @@
             "SlotTemplate": {
                 "RowName": "Any_Ammo"
             },
-            "StartingSlots": 1
+            "StartingSlots": 4
         },
         {
             "Name": "Tackle_Box",
@@ -1516,6 +1516,134 @@
             "InventoryID": {
                 "Value": "Processor"
             }
+        },
+        {
+            "Name": "Smoker_T3_Fuel",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "SlotTemplate": {
+                "RowName": "Charcoal"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Basic_Turret_Pistol",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Pistol_Ammo"
+            },
+            "StartingSlots": 4
+        },
+        {
+            "Name": "Basic_Turret_Rifle",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Rifle_Ammo"
+            },
+            "StartingSlots": 4
+        },
+        {
+            "Name": "Basic_Turret_Shotgun",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Shotgun_Ammo"
+            },
+            "StartingSlots": 4
+        },
+        {
+            "Name": "Loot_WildBeehive",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "General_Inventory_Slot"
+            },
+            "StartingSlots": 4,
+            "RemoveOnly": true
+        },
+        {
+            "Name": "BeehiveUpgrades",
+            "InventoryID": {
+                "Value": "BeehiveUpgrades"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Beehive_Upgrade"
+            },
+            "StartingSlots": 4,
+            "SlotOverrides": [
+                {
+                    "Query": {
+                        "RowName": "BeehiveExpansion_T3",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 0
+                },
+                {
+                    "Query": {
+                        "RowName": "BeehiveBreedingZone",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 1
+                },
+                {
+                    "Query": {
+                        "RowName": "BeehiveExpansion_T4",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 2
+                },
+                {
+                    "Query": {
+                        "RowName": "BeehiveExtractor",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 3
+                }
+            ]
+        },
+        {
+            "Name": "BeehiveStorage",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 12
+        },
+        {
+            "Name": "BeeFuel",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Bee"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "BeeBreeding",
+            "InventoryID": {
+                "Value": "Upgrade"
+            },
+            "SlotTemplate": {
+                "RowName": "Queen_Bee"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Fuel_FatWax",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "SlotTemplate": {
+                "RowName": "Fuel_FatWax"
+            },
+            "StartingSlots": 1
         }
     ]
 }

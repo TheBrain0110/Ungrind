@@ -1486,7 +1486,7 @@
         {
             "Name": "Glass_Bottle_Beer",
             "ItemStaticData": {
-                "RowName": "Glass_Bottle_Beer"
+                "RowName": "Glass_Bottle"
             }
         },
         {
@@ -1528,7 +1528,7 @@
         {
             "Name": "Glass_Bottle_Wine",
             "ItemStaticData": {
-                "RowName": "Glass_Bottle_Wine"
+                "RowName": "Glass_Bottle"
             }
         },
         {
@@ -8944,12 +8944,6 @@
             }
         },
         {
-            "Name": "Basic_Turret",
-            "ItemStaticData": {
-                "RowName": "Basic_Turret"
-            }
-        },
-        {
             "Name": "Meta_Fishfinder",
             "ItemStaticData": {
                 "RowName": "Meta_Fishfinder"
@@ -12521,6 +12515,12 @@
             }
         },
         {
+            "Name": "Stone_Diagonal_Curved_Wall_Angles",
+            "ItemStaticData": {
+                "RowName": "Stone_Diagonal_Curved_Wall_Angles"
+            }
+        },
+        {
             "Name": "Stone_Wall_Curved",
             "ItemStaticData": {
                 "RowName": "Stone_Wall_Curved"
@@ -12887,6 +12887,66 @@
             }
         },
         {
+            "Name": "Beehive",
+            "ItemStaticData": {
+                "RowName": "Beehive"
+            }
+        },
+        {
+            "Name": "Beehive_Expansion",
+            "ItemStaticData": {
+                "RowName": "Beehive_Expansion"
+            }
+        },
+        {
+            "Name": "Beehive_Expansion2",
+            "ItemStaticData": {
+                "RowName": "Beehive_Expansion2"
+            }
+        },
+        {
+            "Name": "Beehive_Extractor",
+            "ItemStaticData": {
+                "RowName": "Beehive_Extractor"
+            }
+        },
+        {
+            "Name": "Beehive_BreedingCenter",
+            "ItemStaticData": {
+                "RowName": "Beehive_BreedingCenter"
+            }
+        },
+        {
+            "Name": "Queen_Bee",
+            "ItemStaticData": {
+                "RowName": "Queen_Bee"
+            }
+        },
+        {
+            "Name": "Worker_Bee",
+            "ItemStaticData": {
+                "RowName": "Worker_Bee"
+            }
+        },
+        {
+            "Name": "Honeycomb",
+            "ItemStaticData": {
+                "RowName": "Honeycomb"
+            }
+        },
+        {
+            "Name": "Honey",
+            "ItemStaticData": {
+                "RowName": "Honey"
+            }
+        },
+        {
+            "Name": "Beeswax",
+            "ItemStaticData": {
+                "RowName": "Beeswax"
+            }
+        },
+        {
             "Name": "Meta_Sickle_Inaris_00",
             "ItemStaticData": {
                 "RowName": "Meta_Sickle_Inaris_00"
@@ -12914,6 +12974,276 @@
             "Name": "Meta_Shield_9Diamonds",
             "ItemStaticData": {
                 "RowName": "Meta_Shield_9Diamonds"
+            }
+        },
+        {
+            "Name": "Mission_AudioLog_Prometheus_3",
+            "ItemStaticData": {
+                "RowName": "Mission_AudioLog_Prometheus_3"
+            }
+        },
+        {
+            "Name": "Battery_T3",
+            "ItemStaticData": {
+                "RowName": "Battery_T3"
+            }
+        },
+        {
+            "Name": "Battery_Shelf_T3",
+            "ItemStaticData": {
+                "RowName": "Battery_Shelf_T3"
+            }
+        },
+        {
+            "Name": "Battery_T4",
+            "ItemStaticData": {
+                "RowName": "Battery_T4"
+            }
+        },
+        {
+            "Name": "Battery_Shelf_T4",
+            "ItemStaticData": {
+                "RowName": "Battery_Shelf_T4"
+            }
+        },
+        {
+            "Name": "Smoked_Giant_Steak",
+            "ItemStaticData": {
+                "RowName": "Smoked_Giant_Steak"
+            }
+        },
+        {
+            "Name": "Smoked_Fatty_Tbone",
+            "ItemStaticData": {
+                "RowName": "Smoked_Fatty_Tbone"
+            }
+        },
+        {
+            "Name": "Smoked_Gamey_Meat",
+            "ItemStaticData": {
+                "RowName": "Smoked_Gamey_Meat"
+            }
+        },
+        {
+            "Name": "Smoked_Stringy_Meat",
+            "ItemStaticData": {
+                "RowName": "Smoked_Stringy_Meat"
+            }
+        },
+        {
+            "Name": "Smoked_Soft_Meat",
+            "ItemStaticData": {
+                "RowName": "Smoked_Soft_Meat"
+            }
+        },
+        {
+            "Name": "Smoked_White_Meat",
+            "ItemStaticData": {
+                "RowName": "Smoked_White_Meat"
+            }
+        },
+        {
+            "Name": "Smoked_Freshwater_Fillet",
+            "ItemStaticData": {
+                "RowName": "Smoked_Freshwater_Fillet"
+            }
+        },
+        {
+            "Name": "Smoked_Saltwater_Fillet",
+            "ItemStaticData": {
+                "RowName": "Smoked_Saltwater_Fillet"
+            }
+        },
+        {
+            "Name": "Dried_Meat_Generic",
+            "ItemStaticData": {
+                "RowName": "Dried_Meat_Generic"
+            }
+        },
+        {
+            "Name": "Smoked_Meat_Generic",
+            "ItemStaticData": {
+                "RowName": "Smoked_Meat_Generic"
+            }
+        },
+        {
+            "Name": "Glass_Jar_Honey",
+            "ItemStaticData": {
+                "RowName": "Glass_Jar_Honey"
+            }
+        },
+        {
+            "Name": "Smoked_Bacon",
+            "ItemStaticData": {
+                "RowName": "Smoked_Bacon"
+            }
+        },
+        {
+            "Name": "Honey_Pastry",
+            "ItemStaticData": {
+                "RowName": "Honey_Pastry"
+            }
+        },
+        {
+            "Name": "Honey_Mead",
+            "ItemStaticData": {
+                "RowName": "Honey_Mead"
+            }
+        },
+        {
+            "Name": "Glass_Bottle",
+            "ItemStaticData": {
+                "RowName": "Glass_Bottle"
+            }
+        },
+        {
+            "Name": "Honey_Bar",
+            "ItemStaticData": {
+                "RowName": "Food_Honey_Bar"
+            }
+        },
+        {
+            "Name": "Honey_Tea",
+            "ItemStaticData": {
+                "RowName": "Honey_Tea"
+            }
+        },
+        {
+            "Name": "Stone_Roof_CurvedAngles",
+            "ItemStaticData": {
+                "RowName": "Stone_Roof_CurvedAngles"
+            }
+        },
+        {
+            "Name": "Ice_Diagonal_Set",
+            "ItemStaticData": {
+                "RowName": "Ice_Diagonal_Set"
+            }
+        },
+        {
+            "Name": "Ice_Curved_Set",
+            "ItemStaticData": {
+                "RowName": "Ice_Curved_Set"
+            }
+        },
+        {
+            "Name": "Ice_Diagonal_Curved_Wall_Angles",
+            "ItemStaticData": {
+                "RowName": "Ice_Diagonal_Curved_Wall_Angles"
+            }
+        },
+        {
+            "Name": "Ice_Roof_CurvedAngles",
+            "ItemStaticData": {
+                "RowName": "Ice_Roof_CurvedAngles"
+            }
+        },
+        {
+            "Name": "Ice_Wall_Curved",
+            "ItemStaticData": {
+                "RowName": "Ice_Wall_Curved"
+            }
+        },
+        {
+            "Name": "Ice_Advanced_Beam_Set",
+            "ItemStaticData": {
+                "RowName": "Ice_Advanced_Beam_Set"
+            }
+        },
+        {
+            "Name": "Scoria_Diagonal_Set",
+            "ItemStaticData": {
+                "RowName": "Scoria_Diagonal_Set"
+            }
+        },
+        {
+            "Name": "Scoria_Curved_Set",
+            "ItemStaticData": {
+                "RowName": "Scoria_Curved_Set"
+            }
+        },
+        {
+            "Name": "Scoria_Diagonal_Curved_Wall_Angles",
+            "ItemStaticData": {
+                "RowName": "Scoria_Diagonal_Curved_Wall_Angles"
+            }
+        },
+        {
+            "Name": "Scoria_Roof_CurvedAngles",
+            "ItemStaticData": {
+                "RowName": "Scoria_Roof_CurvedAngles"
+            }
+        },
+        {
+            "Name": "Scoria_Wall_Curved",
+            "ItemStaticData": {
+                "RowName": "Scoria_Wall_Curved"
+            }
+        },
+        {
+            "Name": "Scoria_Advanced_Beam_Set",
+            "ItemStaticData": {
+                "RowName": "Scoria_Advanced_Beam_Set"
+            }
+        },
+        {
+            "Name": "Platinum_Shovel",
+            "ItemStaticData": {
+                "RowName": "Platinium_Shovel"
+            }
+        },
+        {
+            "Name": "Titanium_Shovel",
+            "ItemStaticData": {
+                "RowName": "Titanium_Shovel"
+            }
+        },
+        {
+            "Name": "Workshop_Shovel",
+            "ItemStaticData": {
+                "RowName": "Workshop_Shovel"
+            }
+        },
+        {
+            "Name": "Water_Barrel",
+            "ItemStaticData": {
+                "RowName": "Water_Barrel"
+            }
+        },
+        {
+            "Name": "Biofuel_Water_Pump",
+            "ItemStaticData": {
+                "RowName": "Biofuel_Water_Pump"
+            }
+        },
+        {
+            "Name": "Rain_Reservoir_T3",
+            "ItemStaticData": {
+                "RowName": "Rain_Reservoir_T3"
+            }
+        },
+        {
+            "Name": "Water_Borer",
+            "ItemStaticData": {
+                "RowName": "Water_Borer"
+            }
+        },
+        {
+            "Name": "Flame_Thrower",
+            "ItemStaticData": {
+                "RowName": "Flame_Thrower"
+            }
+        },
+        {
+            "Name": "Shotgun_T4",
+            "ItemStaticData": {
+                "RowName": "Shotgun_T4"
+            }
+        },
+        {
+            "Name": "Flow_Meter",
+            "ItemStaticData": {
+                "RowName": "Flow_Meter"
             }
         }
     ]

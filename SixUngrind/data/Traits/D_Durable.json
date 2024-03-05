@@ -732,6 +732,10 @@
             "Max_Durability": 4000
         },
         {
+            "Name": "Limestone_Building",
+            "Max_Durability": 4000
+        },
+        {
             "Name": "Clay_Brick_Building",
             "Max_Durability": 3500
         },
@@ -1628,6 +1632,36 @@
                 {
                     "Item": {
                         "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "Black_Wolf_Armor",
+            "Max_Durability": 7500,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Black_Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Queen_Bee",
+            "Destroyed_At_Zero": true
+        },
+        {
+            "Name": "Shotgun_T4",
+            "Max_Durability": 15000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Amount": 1

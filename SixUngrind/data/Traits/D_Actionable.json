@@ -32,6 +32,13 @@
                         "RowName": "None",
                         "DataTableName": "D_ModifierStates"
                     }
+                },
+                "(RowName=\"\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {},
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
                 }
             },
             "bUseClientPrediction": true
@@ -1870,6 +1877,65 @@
                             "DataTableName": "D_StaminaActionCosts"
                         },
                         "Secondary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Carcass_Drop",
+            "ActionMapping": {
+                "(RowName=\"DropGSlot\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Secondary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Beacon_Tool",
+            "ActionMapping": {
+                "(RowName=\"Beacon_Tool\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        },
+                        "Secondary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        },
+                        "Reload": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "FlameThrower",
+            "ActionMapping": {
+                "(RowName=\"FlameThrower\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
                             "RowName": "None",
                             "DataTableName": "D_StaminaActionCosts"
                         }

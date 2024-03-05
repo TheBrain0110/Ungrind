@@ -3596,6 +3596,9 @@
                     },
                     {
                         "TagName": "GOAP.Food.Herbivore"
+                    },
+                    {
+                        "TagName": "Item.Consumable.Food.Honey"
                     }
                 ],
                 "QueryTokenStream": [
@@ -3608,11 +3611,12 @@
                     0,
                     1,
                     1,
+                    3,
                     2,
-                    2,
-                    3
+                    3,
+                    4
                 ],
-                "AutoDescription": " ANY(  ALL( Item.Consumable.Food, Item.Plant ),  ANY( FactionMission.Item.AnimalFood, GOAP.Food.Herbivore ) )"
+                "AutoDescription": " ANY(  ALL( Item.Consumable.Food, Item.Plant ),  ANY( FactionMission.Item.AnimalFood, GOAP.Food.Herbivore, Item.Consumable.Food.Honey ) )"
             }
         },
         {
@@ -3630,6 +3634,9 @@
                     },
                     {
                         "TagName": "GOAP.Food.Herbivore"
+                    },
+                    {
+                        "TagName": "Item.Consumable.Food.Honey"
                     }
                 ],
                 "QueryTokenStream": [
@@ -3642,11 +3649,12 @@
                     0,
                     1,
                     1,
+                    3,
                     2,
-                    2,
-                    3
+                    3,
+                    4
                 ],
-                "AutoDescription": " ANY(  ALL( Item.Consumable.Food, Item.Plant ),  ANY( FactionMission.Item.AnimalFood, GOAP.Food.Herbivore ) )"
+                "AutoDescription": " ANY(  ALL( Item.Consumable.Food, Item.Plant ),  ANY( FactionMission.Item.AnimalFood, GOAP.Food.Herbivore, Item.Consumable.Food.Honey ) )"
             }
         },
         {
@@ -4088,11 +4096,11 @@
                 "QueryTokenStream": [
                     0,
                     1,
-                    2,
+                    1,
                     1,
                     0
                 ],
-                "AutoDescription": " ALL( Item.Medicine.Tonic.Enhancement )"
+                "AutoDescription": " ANY( Item.Medicine.Tonic.Enhancement )"
             }
         },
         {
@@ -4106,11 +4114,11 @@
                 "QueryTokenStream": [
                     0,
                     1,
-                    2,
+                    1,
                     1,
                     0
                 ],
-                "AutoDescription": " ALL( Item.Medicine.Tonic.Status )"
+                "AutoDescription": " ANY( Item.Medicine.Tonic.Status )"
             }
         },
         {
@@ -4124,11 +4132,11 @@
                 "QueryTokenStream": [
                     0,
                     1,
-                    2,
+                    1,
                     1,
                     0
                 ],
-                "AutoDescription": " ALL( Item.Medicine.Pill )"
+                "AutoDescription": " ANY( Item.Medicine.Pill )"
             }
         },
         {
@@ -4142,11 +4150,11 @@
                 "QueryTokenStream": [
                     0,
                     1,
-                    2,
+                    1,
                     1,
                     0
                 ],
-                "AutoDescription": " ALL( Item.Medicine )"
+                "AutoDescription": " ANY( Item.Medicine )"
             }
         },
         {
@@ -4976,11 +4984,11 @@
                 "QueryTokenStream": [
                     0,
                     1,
-                    2,
+                    1,
                     1,
                     0
                 ],
-                "AutoDescription": " ALL( Item.Vestige )"
+                "AutoDescription": " ANY( Item.Vestige )"
             }
         },
         {
@@ -5055,6 +5063,32 @@
                 "TagDictionary": [
                     {
                         "TagName": "Item.Quest"
+                    },
+                    {
+                        "TagName": "FieldGuide.BlackList"
+                    },
+                    {
+                        "TagName": "FactionMission.Item"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ANY( Item.Quest, FieldGuide.BlackList, FactionMission.Item )"
+            }
+        },
+        {
+            "Name": "Any_Trophy_Knife",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Knife.Trophy"
                     }
                 ],
                 "QueryTokenStream": [
@@ -5064,7 +5098,547 @@
                     1,
                     0
                 ],
-                "AutoDescription": " ANY( Item.Quest )"
+                "AutoDescription": " ANY( Harvest.Knife.Trophy )"
+            }
+        },
+        {
+            "Name": "Any_Creature_Loot",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Creature.Loot"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Creature.Loot )"
+            }
+        },
+        {
+            "Name": "Any_ResourceNetworkRelated",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "item.ResourceGenerator"
+                    },
+                    {
+                        "TagName": "FieldGuide.ResourceNetwork"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( item.ResourceGenerator, FieldGuide.ResourceNetwork )"
+            }
+        },
+        {
+            "Name": "Any_Carcass",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "Harvest.Knife.T2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Harvest.Knife.T1, Harvest.Knife.T2 )"
+            }
+        },
+        {
+            "Name": "Any_Plant",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plant"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Plant )"
+            }
+        },
+        {
+            "Name": "Any_Decorations",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Decoration"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Decoration )"
+            }
+        },
+        {
+            "Name": "Any_Pistol_Ammo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Ammo.Pistol"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Ammo.Pistol )"
+            }
+        },
+        {
+            "Name": "Any_Rifle_Ammo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Ammo.Rifle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Ammo.Rifle )"
+            }
+        },
+        {
+            "Name": "Any_Shotgun_Ammo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Ammo.Shotgun"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Ammo.Shotgun )"
+            }
+        },
+        {
+            "Name": "Any_Workshop_Package",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Package"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Meta.Package )"
+            }
+        },
+        {
+            "Name": "Any_BuildingTrim",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.BuildingTrim"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.BuildingTrim )"
+            }
+        },
+        {
+            "Name": "Any_SuitOrModule",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Upgrade.Passive"
+                    },
+                    {
+                        "TagName": "Item.Envirosuit"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Upgrade.Passive, Item.Envirosuit )"
+            }
+        },
+        {
+            "Name": "Any_Defense",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.Defense"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.Defense )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Equipment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Equip.Quickbar"
+                    },
+                    {
+                        "TagName": "Item.Backpack"
+                    },
+                    {
+                        "TagName": "Item.Upgrade.Vision"
+                    },
+                    {
+                        "TagName": "FieldGuide.Equipment"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "AutoDescription": " ANY( Item.Equip.Quickbar, Item.Backpack, Item.Upgrade.Vision, FieldGuide.Equipment )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Food",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food"
+                    },
+                    {
+                        "TagName": "NPC.Fish"
+                    },
+                    {
+                        "TagName": "FieldGuide.Food"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Food, NPC.Fish, FieldGuide.Food )"
+            }
+        },
+        {
+            "Name": "Any_Tool_Or_Melee",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool"
+                    },
+                    {
+                        "TagName": "Item.Weapon.Spear.Melee"
+                    },
+                    {
+                        "TagName": "Item.Tool.Knife.Thrown"
+                    },
+                    {
+                        "TagName": "Item.Tool.Thrown"
+                    },
+                    {
+                        "TagName": "Item.Weapon.Spear.Thrown"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    1,
+                    2,
+                    0,
+                    1,
+                    3,
+                    3,
+                    2,
+                    3,
+                    4
+                ],
+                "AutoDescription": " ALL(  ANY( Item.Tool, Item.Weapon.Spear.Melee ),  NONE( Item.Tool.Knife.Thrown, Item.Tool.Thrown, Item.Weapon.Spear.Thrown ) )"
+            }
+        },
+        {
+            "Name": "FieldGuide_Ore",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Ore"
+                    },
+                    {
+                        "TagName": "FieldGuide.Ore"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Resource.Ore, FieldGuide.Ore )"
+            }
+        },
+        {
+            "Name": "BeehiveBreedingZone",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Beehive.Breeding"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Beehive.Breeding )"
+            }
+        },
+        {
+            "Name": "BeehiveExpansion_T3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Beehive.Expansion.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Beehive.Expansion.T3 )"
+            }
+        },
+        {
+            "Name": "BeehiveExpansion_T4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Beehive.Expansion.T4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Beehive.Expansion.T4 )"
+            }
+        },
+        {
+            "Name": "BeehiveExtractor",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Beehive.Extractor"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Beehive.Extractor )"
+            }
+        },
+        {
+            "Name": "Any_Beehive_Upgrade",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Beehive.Breeding"
+                    },
+                    {
+                        "TagName": "Item.Beehive.Expansion.T3"
+                    },
+                    {
+                        "TagName": "Item.Beehive.Expansion.T4"
+                    },
+                    {
+                        "TagName": "Item.Beehive.Extractor"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "AutoDescription": " ANY( Item.Beehive.Breeding, Item.Beehive.Expansion.T3, Item.Beehive.Expansion.T4, Item.Beehive.Extractor )"
+            }
+        },
+        {
+            "Name": "Any_Bee",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Bee"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Bee )"
+            }
+        },
+        {
+            "Name": "Queen_Bee",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Bee.Queen"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Bee.Queen )"
+            }
+        },
+        {
+            "Name": "Honeycomb",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Honeycomb"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Resource.Honeycomb )"
+            }
+        },
+        {
+            "Name": "Fuel_FatWax",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fuel.AnimalFat"
+                    },
+                    {
+                        "TagName": "Item.Fuel.Beeswax"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Fuel.AnimalFat, Item.Fuel.Beeswax )"
+            }
+        },
+        {
+            "Name": "FieldGuide_WorkshopOnly",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FieldGuide.WorkshopOnly"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FieldGuide.WorkshopOnly )"
             }
         }
     ]

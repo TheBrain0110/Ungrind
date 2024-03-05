@@ -39,6 +39,14 @@
         {
             "Name": "Group15Base",
             "FileName": "Prebuilt_Group15_Base_Volcanic"
+        },
+        {
+            "Name": "AshlandsOutpost",
+            "FileName": "Ashlands_Outpost"
+        },
+        {
+            "Name": "SinotaiCamp",
+            "FileName": "Sinotai_Research_Camp"
         }
     ]
 }

@@ -192,7 +192,8 @@
                     "RowName": "Water_Barrel",
                     "DataTableName": "D_DeployableSetup"
                 }
-            ]
+            ],
+            "EffectedByWeather": false
         },
         {
             "Name": "Composter",
@@ -3442,7 +3443,9 @@
                     "RowName": "Basic_Turret",
                     "DataTableName": "D_DeployableSetup"
                 }
-            ]
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
         },
         {
             "Name": "Tackle_Box",
@@ -4381,7 +4384,9 @@
                     "RowName": "Smoker_T3",
                     "DataTableName": "D_DeployableSetup"
                 }
-            ]
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
         },
         {
             "Name": "Smoker_T4",
@@ -5193,6 +5198,414 @@
             "Variants": [
                 {
                     "RowName": "Beehive_Extractor",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Supporters_Flag",
+            "Variants": [
+                {
+                    "RowName": "Supporters_Flag",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Supporters_Flag_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Supporters_Flag_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Supporters_Flag_D",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Supporters_Sign",
+            "Variants": [
+                {
+                    "RowName": "Supporters_Sign",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Supporters_Sign_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Supporters_Sign_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Supporters_Sign_D",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Fur_Curtain_Door",
+            "Variants": [
+                {
+                    "RowName": "Fur_Curtain_Door",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "AudioOcclusionAmount": 0.5,
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Battery_Shelf_T3",
+            "Variants": [
+                {
+                    "RowName": "Battery_Shelf_T3",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Battery_Shelf_T4",
+            "Variants": [
+                {
+                    "RowName": "Battery_Shelf_T4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Farming_Mound_Sugar_Cane",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Sugar_Cane",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Basic_Turret_Pistol",
+            "Variants": [
+                {
+                    "RowName": "Basic_Turret_Pistol",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Basic_Turret_Rifle",
+            "Variants": [
+                {
+                    "RowName": "Basic_Turret_Rifle",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Basic_Turret_Shotgun",
+            "Variants": [
+                {
+                    "RowName": "Basic_Turret_Shotgun",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Sandworm_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Sandworm_Trophy_Wall",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Sandworm_Trophy_2",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Sandworm_Trophy_Floor",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Sandworm_Trophy_Brazier",
+            "Variants": [
+                {
+                    "RowName": "Sandworm_Trophy_1",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Sandworm_Trophy_3",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Stationeers_Trophy_1",
+            "Variants": [
+                {
+                    "RowName": "Stationeers_Trophy_1",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Stationeers_Trophy_2",
+            "Variants": [
+                {
+                    "RowName": "Stationeers_Trophy_2",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Supporters_Logo",
+            "Variants": [
+                {
+                    "RowName": "Supporters_Logo_1",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Supporters_Logo_2",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Trail_Beacon",
+            "Variants": [
+                {
+                    "RowName": "Trail_Beacon",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Rain_Reservoir_T3",
+            "Variants": [
+                {
+                    "RowName": "Rain_Reservoir_T3",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Water_Pump_T3",
+            "Variants": [
+                {
+                    "RowName": "Water_Pump_T3",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Water_Borer",
+            "Variants": [
+                {
+                    "RowName": "Water_Borer",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Enzyme_Cannon_Hub",
+            "Variants": [
+                {
+                    "RowName": "Enzyme_Cannon_Hub",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Enzyme_Cannon_Arm",
+            "Variants": [
+                {
+                    "RowName": "Enzyme_Cannon_Arm",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Water_Trough_Large",
+            "Variants": [
+                {
+                    "RowName": "Water_Trough_Large",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Water_Trough_T4",
+            "Variants": [
+                {
+                    "RowName": "Water_Trough_T4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Water_Trough_Stone",
+            "Variants": [
+                {
+                    "RowName": "Water_Trough_Stone",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Water_Trough_Metal",
+            "Variants": [
+                {
+                    "RowName": "Water_Trough_Metal",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Water_Trough_Fountion",
+            "Variants": [
+                {
+                    "RowName": "Water_Trough_Fountain",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Food_Trough_Large",
+            "Variants": [
+                {
+                    "RowName": "Food_Trough_Large",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Food_Trough_T4",
+            "Variants": [
+                {
+                    "RowName": "Food_Trough_T4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Food_Trough_Rustic",
+            "Variants": [
+                {
+                    "RowName": "Food_Trough_Rustic",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Food_Trough_Metal",
+            "Variants": [
+                {
+                    "RowName": "Food_Trough_Metal",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Food_Trough_Glass",
+            "Variants": [
+                {
+                    "RowName": "Food_Trough_Glass",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_Coconut",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Coconut",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Farming_Mound_Bramble",
+            "Variants": [
+                {
+                    "RowName": "Farming_Mound_Bramble",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Bramble",
+            "Variants": [
+                {
+                    "RowName": "Bramble",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Chicken_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Chicken_Trophy_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Chicken_Trophy_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Chicken_Trophy_C",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Sheep_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Sheep_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Flow_Meter",
+            "Variants": [
+                {
+                    "RowName": "Flow_Meter",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

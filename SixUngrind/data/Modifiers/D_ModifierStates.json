@@ -18,7 +18,8 @@
         "AuraFlags": {
             "EffectsSelf": true,
             "EffectsPlayers": true,
-            "EffectsNPCs": false
+            "EffectsNPCs": false,
+            "EffectsDeployables": false
         },
         "ModifierGrantedByAura": {
             "RowName": "None",
@@ -1189,6 +1190,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Wet-ModifierDescription\", \"You are wet and your temperature has been decreased. You take increased Electric and Frost damage.\")",
             "GrantedStats": {
                 "(Value=\"BaseExternalTemperatureModification_+\")": -1000,
+                "(Value=\"BaseBurnChance_%\")": -25,
                 "(Value=\"BaseElectricDamageResistance_%\")": -50,
                 "(Value=\"BaseFrostDamageResistance_%\")": -50
             },
@@ -1366,7 +1368,7 @@
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_AdditionalPhysicalDamageMitigation-ModifierName\", \"Aura Effect: Reduced Physical Damage Taken\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_AdditionalPhysicalDamageMitigation-ModifierDescription\", \"Reduced physical damage.\")",
             "GrantedStats": {
-                "(Value=\"BasePhysicalDamageResistance_+%\")": 5
+                "(Value=\"BasePhysicalDamageResistance_%\")": 5
             },
             "AuraRange": 500,
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
@@ -2270,12 +2272,13 @@
             "bAura": true,
             "AuraRange": 2000,
             "AuraFlags": {
-                "EffectsSelf": false
+                "EffectsSelf": false,
+                "EffectsDeployables": true
             },
             "ModifierGrantedByAura": {
                 "RowName": "Dehumidifier"
             },
-            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_RangeModifiable.BP_Modifier_Aura_RangeModifiable_C",
             "ShouldTick": true,
             "MergeType": "Replace",
             "ModifierTags": {
@@ -2434,9 +2437,9 @@
         },
         {
             "Name": "IceBox_Spoil_Rate",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_SpoilTime.Icon_SpoilTime'",
             "ModifierName": "",
             "ModifierDescription": "",
-            "VisibleToPlayer": false,
             "GrantedStats": {
                 "(Value=\"BaseInventorySpoilRate_+%\")": -500
             },
@@ -2446,9 +2449,9 @@
         },
         {
             "Name": "Refrigerator_Spoil_Rate",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_SpoilTime.Icon_SpoilTime'",
             "ModifierName": "",
             "ModifierDescription": "",
-            "VisibleToPlayer": false,
             "GrantedStats": {
                 "(Value=\"BaseInventorySpoilRate_+%\")": -1000
             },
@@ -2458,9 +2461,9 @@
         },
         {
             "Name": "Minimal_Spoil_Rate",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_SpoilTime.Icon_SpoilTime'",
             "ModifierName": "",
             "ModifierDescription": "",
-            "VisibleToPlayer": false,
             "GrantedStats": {
                 "(Value=\"BaseInventoryCannotSpoil_?\")": 1
             },
@@ -4199,9 +4202,9 @@
         },
         {
             "Name": "WaterConnectionSpeedUp",
-            "ModifierName": "",
-            "ModifierDescription": "",
-            "VisibleToPlayer": false,
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_WaterBuff.Icon_WaterBuff'",
+            "ModifierName": "INVTEXT(\"[DNT] Water Speed\")",
+            "ModifierDescription": "INVTEXT(\"[DNT] Water is speeding crafting up\")",
             "GrantedStats": {
                 "(Value=\"BaseCraftingSpeed_+%\")": 50
             },
@@ -4213,9 +4216,9 @@
         },
         {
             "Name": "WaterConnectionSpeedUp_2x",
-            "ModifierName": "",
-            "ModifierDescription": "",
-            "VisibleToPlayer": false,
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_WaterBuff.Icon_WaterBuff'",
+            "ModifierName": "INVTEXT(\"[DNT] Water Speed\")",
+            "ModifierDescription": "INVTEXT(\"[DNT] Water is greatly speeding crafting up\")",
             "GrantedStats": {
                 "(Value=\"BaseCraftingSpeed_+%\")": 200
             },
@@ -4652,12 +4655,9 @@
             "Name": "Weight_Reduction_Aura",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Weight_Reduction_Aura.Icon_Weight_Reduction_Aura'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction_Aura-ModifierName\", \"Aura: Strength Boost\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction_Aura-ModifierDescription\", \"Helps nearby prospectors to carry more. Does not apply to yourself.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Weight_Reduction_Aura-ModifierDescription\", \"Helps nearby prospectors to carry more.\")",
             "bAura": true,
             "AuraRange": 1000,
-            "AuraFlags": {
-                "EffectsSelf": false
-            },
             "ModifierGrantedByAura": {
                 "RowName": "Weight_Reduction"
             },
@@ -4677,8 +4677,8 @@
         },
         {
             "Name": "Healing_Modifier_Duration",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Healing_Modifier_Aura.Icon_Healing_Modifier_Aura'",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Duration-ModifierName\", \"Healing Boost\")",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Healing_Modifier_Duration.Icon_Healing_Modifier_Duration'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Duration-ModifierName\", \"Aura Effect: Healing Boost\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Duration-ModifierDescription\", \"Granted by a helpful prospector nearby.\")",
             "GrantedStats": {
                 "(Value=\"BaseBacterialModifierDuration_+%\")": -30,
@@ -4698,12 +4698,9 @@
             "Name": "Healing_Modifier_Aura",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Healing_Modifier_Aura.Icon_Healing_Modifier_Aura'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Aura-ModifierName\", \"Aura: Healing Boost\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Aura-ModifierDescription\", \"Helps nearby prospectors to heal faster from afflictions. Does not apply to yourself.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Healing_Modifier_Aura-ModifierDescription\", \"Helps nearby prospectors to heal faster from afflictions.\")",
             "bAura": true,
             "AuraRange": 1000,
-            "AuraFlags": {
-                "EffectsSelf": false
-            },
             "ModifierGrantedByAura": {
                 "RowName": "Healing_Modifier_Duration"
             },
@@ -5603,9 +5600,9 @@
         },
         {
             "Name": "Deep_Freeze_Spoil_Rate",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_SpoilTime.Icon_SpoilTime'",
             "ModifierName": "",
             "ModifierDescription": "",
-            "VisibleToPlayer": false,
             "GrantedStats": {
                 "(Value=\"BaseInventoryCannotSpoil_?\")": 1
             },
@@ -7757,8 +7754,8 @@
             "Name": "Decaying_Corpse",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Modifier_Carcass.T_ICON_Modifier_Carcass'",
             "Type": "Debuff",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Decaying_Corpse-ModifierName\", \"Decaying Corpse\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Decaying_Corpse-ModifierDescription\", \"Other creatures will be attracted to this corpse if not disposed of\")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Decaying_Corpse-ModifierName\", \"Decaying Carcass\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Decaying_Corpse-ModifierDescription\", \"Other creatures will be attracted to this carcass if not disposed of.\")",
             "MergeType": "Stack",
             "bEffectsObjects": true,
             "bEffectsNPCs": false,
@@ -7766,7 +7763,7 @@
         },
         {
             "Name": "GrantedAura_HealthRegen",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegen.Icon_HealthRegen'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HealthRegen_Aura.Icon_HealthRegen_Aura'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_HealthRegen-ModifierName\", \"Aura: Increased Health Regeneration\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_HealthRegen-ModifierDescription\", \"Nearby allies receive additional health regeneration.\")",
             "bAura": true,
@@ -7788,7 +7785,7 @@
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_HealthRegen-ModifierName\", \"Aura Effect: Increased Health Regeneration\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_HealthRegen-ModifierDescription\", \"Increased Health Regeneration\")",
             "GrantedStats": {
-                "(Value=\"BaseHealthRegen_+%\")": 50
+                "(Value=\"BaseHealthRegen_+%\")": 100
             },
             "AuraRange": 500,
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
@@ -7912,6 +7909,600 @@
             },
             "MergeType": "Replace",
             "bEffectsNPCs": false
+        },
+        {
+            "Name": "Smoked_Giant_Steak",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Giant_Steak_Smoked.T_ITEM_Giant_Steak_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Giant_Steak-ModifierName\", \"Melon Smoked Giant Steak\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Giant_Steak-ModifierDescription\", \"Boosts health and health regen, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 100,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseHealthRegen_+%\")": 50,
+                "(Value=\"BaseFoodConsumption_+%\")": -25,
+                "(Value=\"BaseOxygenConsumption_+%\")": -25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "DriedMeatModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Smoked_Fatty_Tbone",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Fatty_TBone_Smoked.T_ITEM_Fatty_TBone_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Fatty_Tbone-ModifierName\", \"Coffee Smoked Fatty Tbone\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Fatty_Tbone-ModifierDescription\", \"Boosts health, meat yield from animals, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 50,
+                "(Value=\"BaseFoodConsumption_+%\")": -25,
+                "(Value=\"BaseHealthRegen_+%\")": 20
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "DriedMeatModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Smoked_Gamey_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Gamey_Meat_Smoked.T_ITEM_Gamey_Meat_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Gamey_Meat-ModifierName\", \"Gorse Smoked Gamey Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Gamey_Meat-ModifierDescription\", \"Boosts health, melee damage, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 100,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BaseHealthRegen_+%\")": 20,
+                "(Value=\"BaseFoodConsumption_+%\")": -25,
+                "(Value=\"BaseWaterConsumption_+%\")": -25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "DriedMeatModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Smoked_Stringy_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Stringy_Meat_Smoked.T_ITEM_Stringy_Meat_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Stringy_Meat-ModifierName\", \"Stringy Jerky\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Stringy_Meat-ModifierDescription\", \"Boosts stamina, attack speed, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseAttackSpeed_+%\")": 20,
+                "(Value=\"BaseHealthRegen_+%\")": 50,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "DriedMeatModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Smoked_Soft_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Soft_Meat_Smoked.T_ITEM_Soft_Meat_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Soft_Meat-ModifierName\", \"Cocoa Smoked Soft Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Soft_Meat-ModifierDescription\", \"Boosts stamina, stamina regeneration, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseStaminaRegen_+%\")": 25,
+                "(Value=\"BaseFoodConsumption_+%\")": -40,
+                "(Value=\"BaseHealthRegen_+%\")": 20
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "DriedMeatModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Smoked_White_Meat",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_White_Meat_Smoked.T_ITEM_White_Meat_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_White_Meat-ModifierName\", \"White Jerky\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_White_Meat-ModifierDescription\", \"Boosts stamina, exposure resistance, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseExposureResistance_+%\")": 15,
+                "(Value=\"BaseFoodConsumption_+%\")": -25,
+                "(Value=\"BaseHealthRegen_+%\")": 50
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "DriedMeatModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Smoked_Freshwater_Fillet",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Freshwater_Fillet_Smoked.T_ITEM_Freshwater_Fillet_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Freshwater_Fillet-ModifierName\", \"Tea Smoked Freshwater Fillet\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Freshwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and health regeneration, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 25,
+                "(Value=\"BaseHealthRegen_+%\")": 50,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace"
+        },
+        {
+            "Name": "Smoked_Saltwater_Fillet",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Saltwater_Fillet_Smoked.T_ITEM_Saltwater_Fillet_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Saltwater_Fillet-ModifierName\", \"Berry Smoked Saltwater Fillet\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Saltwater_Fillet-ModifierDescription\", \"Boosts health, stamina regeneration and exposure resistance, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseStaminaRegen_+%\")": 25,
+                "(Value=\"BaseExposureResistance_+%\")": 5,
+                "(Value=\"BaseFoodConsumption_+%\")": -25,
+                "(Value=\"BaseWaterConsumption_+%\")": -25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FishFoodModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace"
+        },
+        {
+            "Name": "Dried_Meat_Generic",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Generic_Meat_Dried.T_ITEM_Generic_Meat_Dried'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Meat_Generic-ModifierName\", \"Basic Dried Meat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Meat_Generic-ModifierDescription\", \"Boosts health, stamina regeneration and exposure resistance, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseHealthRegen_+%\")": 20,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "BaseDriedMeatModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace"
+        },
+        {
+            "Name": "Smoked_Meat_Generic",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Generic_Meat_Smoked.T_ITEM_Generic_Meat_Smoked'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Meat_Generic-ModifierName\", \"Plain Jerky\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Meat_Generic-ModifierDescription\", \"Boosts health and health regeneration, and slows hunger\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 150,
+                "(Value=\"BaseHealthRegen_+%\")": 60,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "BaseDriedMeatModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace"
+        },
+        {
+            "Name": "Honey_Jar",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Honey_Jar.T_ITEM_Honey_Jar'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Jar-ModifierName\", \"Jarred Honey\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Jar-ModifierDescription\", \"Boosts Stamina, Food Modifier Duration and Shared Experience.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 125,
+                "(Value=\"BaseFoodModifierDuration_+%\")": 20,
+                "(Value=\"BaseSharedExperience_+%\")": 20
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Honey",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Honey.T_ITEM_Honey'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey-ModifierName\", \"Honey\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey-ModifierDescription\", \"Small Stamina and Food Modifier Duration Boost\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 50,
+                "(Value=\"BaseFoodModifierDuration_+%\")": 10
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Smoked_Bacon",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_SmokedBacon.ITEM_SmokedBacon'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Bacon-ModifierName\", \"Honey Smoked Bacon\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Bacon-ModifierDescription\", \"Boosts Stamina, Health Regen, Experiance. Also reduces food consumption.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseHealthRegen_+%\")": 20,
+                "(Value=\"BaseFoodConsumption_+%\")": -25,
+                "(Value=\"BaseExperience_+%\")": 15,
+                "(Value=\"BaseFoodModifierDuration_+%\")": 20
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "DriedMeatModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Honey_Pastry",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Honey_Glazed_Pastry.T_ITEM_Honey_Glazed_Pastry'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Pastry-ModifierName\", \"Honey Glazed Pastry\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Pastry-ModifierDescription\", \"Increases Experience, and Food Modifier Duration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseFoodModifierDuration_+%\")": 35,
+                "(Value=\"BaseExperience_+%\")": 15
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Bee_Swarm",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Worker_Bee.T_ITEM_Worker_Bee'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Bee_Swarm-ModifierName\", \"Bee Swarm\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Bee_Swarm-ModifierDescription\", \"Bees are swarming all around you. Slows movement and attack speed. Also causes small periodic damage.\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -5,
+                "(Value=\"BaseAttackSpeed_+%\")": -5
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_PureDamage.BP_ModifierStateBehaviour_PureDamage_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 2,
+                    "Deviation": 1
+                }
+            },
+            "ShouldTick": true,
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "ParasiticModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "MaxStackNum": 5,
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "ModifierState.Affliction.Parasitic"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T2"
+                    },
+                    {
+                        "TagName": "ModifierState.Medicine.Antiparasitic.T3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( ModifierState.Medicine.Antiparasitic.T2, ModifierState.Medicine.Antiparasitic.T3 )"
+            }
+        },
+        {
+            "Name": "Honey_Mead",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Honey_Mead.T_ITEM_Honey_Mead'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Mead-ModifierName\", \"Honey Mead\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Mead-ModifierDescription\", \"Boosts max stamina and food modifier duration.\")",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaRegen_+%\")": 100,
+                "(Value=\"BaseMaximumStamina_+\")": 125,
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseFoodModifierDuration_+%\")": 30
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "Replace"
+        },
+        {
+            "Name": "Honey_Bar",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Honey_Bar.T_ITEM_Honey_Bar'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Bar-ModifierName\", \"Honeycomb Bar\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Honey_Bar-ModifierDescription\", \"Boosts stamina, reduces stamina cost of tool actions and increases food modifiers\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BaseToolStaminaActionCost_+%\")": -10,
+                "(Value=\"BaseFoodModifierDuration_+%\")": 15
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Thermos_HoneyTea",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_HoneyTea-ModifierName\", \"Honey Tea\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Thermos_HoneyTea-ModifierDescription\", \"Keeps you warm, reduces parasitic and bacterial infection durations.\")",
+            "GrantedStats": {
+                "(Value=\"BaseInternalTemperatureModification_+\")": 1000,
+                "(Value=\"BaseParasiticModifierDuration_+%\")": -25,
+                "(Value=\"BaseBacterialModifierDuration_+%\")": -25,
+                "(Value=\"BaseFoodModifierDuration_+%\")": 20
+            },
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "GrantedAura_Beehive",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Queen_Bee.T_ITEM_Queen_Bee'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Beehive-ModifierName\", \"Aura: Beehive\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Beehive-ModifierDescription\", \"Increased nearby crop growth yield\")",
+            "bAura": true,
+            "AuraRange": 600,
+            "AuraFlags": {
+                "EffectsSelf": false,
+                "EffectsPlayers": false,
+                "EffectsDeployables": true
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_Beehive"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "AuraEffect_Beehive",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Queen_Bee.T_ITEM_Queen_Bee'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_Beehive-ModifierName\", \"Aura Effect: Nearby Beehive\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_Beehive-ModifierDescription\", \"Increased Crop Yield\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropYield_+%\")": 50
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plot"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Plot )"
+            },
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Energy_Brownout_Crafting",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Electricity.Icon_Electricity'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Energy_Brownout_Crafting-ModifierName\", \"Energy Shortage\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Energy_Brownout_Crafting-ModifierDescription\", \"Insufficient Energy for this device to operate at full efficiency\")",
+            "GrantedStats": {
+                "(Value=\"BaseEnergyBrownoutCraftingSpeed_+%\")": -100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "BrownOut_ResourceNetwork",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Electricity.Icon_Electricity'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"BrownOut_ResourceNetwork-ModifierName\", \"Energy Shortage\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"BrownOut_ResourceNetwork-ModifierDescription\", \"Insufficient Energy for this device to operate at full efficiency\")",
+            "GrantedStats": {
+                "(Value=\"BaseEnergyNetworkModifier_+%\")": -100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Water_Brownout_Crafting",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Water.Icon_Water'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Water_Brownout_Crafting-ModifierName\", \"Water Shortage\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Water_Brownout_Crafting-ModifierDescription\", \"Insufficient Water for this device to operate at full efficiency\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterBrownoutCraftingSpeed_+%\")": -100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Low_Wind_Conditions",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Low_Wind_Conditions-ModifierName\", \"Low Wind\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Low_Wind_Conditions-ModifierDescription\", \"Low wind is causing less energy to be generated.\")",
+            "GrantedStats": {
+                "(Value=\"BaseEnergyNetworkModifier_+%\")": -50
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Electronic_Light_Brownout",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_LowPower.Icon_LowPower'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Electronic_Light_Brownout-ModifierName\", \"Underpowered\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Electronic_Light_Brownout-ModifierDescription\", \"Low power is causing lights to lose effectiveness.\")",
+            "GrantedStats": {
+                "(Value=\"BaseElectronicLightEffectiveness_+%\")": -100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Electronic_Aura_Brownout",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_AuraRangeDebuff.Icon_AuraRangeDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Electronic_Aura_Brownout-ModifierName\", \"Underpowered\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Electronic_Aura_Brownout-ModifierDescription\", \"Low power is causing the Aura to be reduced.\")",
+            "GrantedStats": {
+                "(Value=\"BaseAuraRange_+%\")": -100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Electronic_Spoil_Brownout",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_SpoilTime_Debuff.Icon_SpoilTime_Debuff'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Electronic_Spoil_Brownout-ModifierName\", \"Underpowered\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Electronic_Spoil_Brownout-ModifierDescription\", \"Low Power is causing spoil rate to be increased.\")",
+            "GrantedStats": {
+                "(Value=\"BaseInventorySpoilRate_+%\")": -100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
         }
     ]
 }
