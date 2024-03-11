@@ -130690,7 +130690,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseGenericSlots_+\")": 6,
-                "(Value=\"BaseEnergyTransmutationResourceCost_+%\")": -10
+                "(Value=\"BaseEnergyTransmutationResourceCost_+%\")": -25
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -130793,7 +130793,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseGenericSlots_+\")": 6,
-                "(Value=\"BaseEnergyTransmutationResourceCost_+%\")": -15
+                "(Value=\"BaseEnergyTransmutationResourceCost_+%\")": -25
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -130888,6 +130888,9 @@
             "Audio": {
                 "RowName": "MetalDeployable"
             },
+            "AdditionalStats": {
+                "(Value=\"BaseCraftingSpeed_+%\")": 50
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {
@@ -130980,6 +130983,9 @@
             },
             "Audio": {
                 "RowName": "MetalDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCraftingSpeed_+%\")": 50
             },
             "Manual_Tags": {
                 "GameplayTags": [
