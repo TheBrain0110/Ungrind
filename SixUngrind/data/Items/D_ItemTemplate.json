@@ -12467,6 +12467,54 @@
             }
         },
         {
+            "Name": "Water_Purifier_T1_Water",
+            "ItemStaticData": {
+                "RowName": "Water_Purifier_T1_Water"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Water_Purifier_T1_Ground",
+            "ItemStaticData": {
+                "RowName": "Water_Purifier_T1_Ground"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Water_Purifier_T2",
+            "ItemStaticData": {
+                "RowName": "Water_Purifier_T2"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
+            "Name": "Water_Purifier_T4",
+            "ItemStaticData": {
+                "RowName": "Water_Purifier_T4"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 2
+                }
+            ]
+        },
+        {
             "Name": "Lava_Hunter_Trophy",
             "ItemStaticData": {
                 "RowName": "Lava_Hunter_Trophy"
@@ -13241,39 +13289,106 @@
             }
         },
         {
+            "Name": "Bramble_Seed",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 28
+                }
+            ]
+        },
+        {
+            "Name": "Bramble_Seed_Pack",
+            "ItemStaticData": {
+                "RowName": "Seed"
+            },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "ItemableStack",
+                    "Value": 5
+                }
+            ],
+            "ItemCustomStats": [
+                {
+                    "Stat": {
+                        "Value": "SeedType_Enum"
+                    },
+                    "Value": 28
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Bramble_Seed",
+            "ItemStaticData": {
+                "RowName": "Meta_Bramble_Seed"
+            }
+        },
+        {
+            "Name": "Bramble",
+            "ItemStaticData": {
+                "RowName": "Bramble"
+            }
+        },
+        {
             "Name": "Flow_Meter",
             "ItemStaticData": {
                 "RowName": "Flow_Meter"
             }
         },
         {
-            "Name": "Meta_Sickle_Shengong_01",
+            "Name": "Mission_AudioLog_Prometheus_4",
             "ItemStaticData": {
-                "RowName": "Meta_Sickle_Shengong_01"
+                "RowName": "Mission_AudioLog_Prometheus_4"
             }
         },
         {
-            "Name": "Meta_Sickle_Shengong_02",
+            "Name": "Pyritic_Crust_Stone",
             "ItemStaticData": {
-                "RowName": "Meta_Sickle_Shengong_02"
+                "RowName": "Pyritic_Crust_Stone"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
             }
         },
         {
-            "Name": "Iron_Shears",
+            "Name": "Pyritic_Crust_Salt",
             "ItemStaticData": {
-                "RowName": "Iron_Shears"
+                "RowName": "Pyritic_Crust_Salt"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
             }
         },
         {
-            "Name": "Chicken_Coop",
+            "Name": "Pyritic_Crust_Limestone",
             "ItemStaticData": {
-                "RowName": "Chicken_Coop"
+                "RowName": "Pyritic_Crust_Limestone"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
             }
         },
         {
-            "Name": "Chicken_Coop_Red",
+            "Name": "Workshop_Purification_Tablet",
             "ItemStaticData": {
-                "RowName": "Chicken_Coop_Red"
+                "RowName": "Workshop_Purification_Tablet"
+            }
+        },
+        {
+            "Name": "Purification_Pill",
+            "ItemStaticData": {
+                "RowName": "Purification_Pill"
             }
         }
     ]

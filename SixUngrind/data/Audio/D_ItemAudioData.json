@@ -871,6 +871,16 @@
                         "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_RIFLE_LEVEROUT.SFX_RIFLE_LEVEROUT",
                         "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_RIFLE_LEVERIN.SFX_RIFLE_LEVERIN"
                     ]
+                },
+                "Load": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_RIFLE_RELOAD.SFX_RIFLE_RELOAD"
+                    ]
+                },
+                "Equip": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_RIFLE_MOVE_EQUIP.SFX_RIFLE_MOVE_EQUIP"
+                    ]
                 }
             }
         },
@@ -1346,6 +1356,16 @@
                         "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_SCORPION_RIFLE_LEVER1.SFX_SCORPION_RIFLE_LEVER1",
                         "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_SCORPION_RIFLE_LEVER2.SFX_SCORPION_RIFLE_LEVER2"
                     ]
+                },
+                "Load": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_CHAC_RIFLE_RELOAD.SFX_CHAC_RIFLE_RELOAD"
+                    ]
+                },
+                "Equip": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_CHAC_RIFLE_MOVE_EQUIP.SFX_CHAC_RIFLE_MOVE_EQUIP"
+                    ]
                 }
             }
         },
@@ -1401,6 +1421,70 @@
                 "Load": {
                     "FMODEvents": [
                         "/Game/FMOD/Events/SFX/Weapons/Guns/Shotgun/SFX_SHOTGUN_CHAC_RELOADSHELL.SFX_SHOTGUN_CHAC_RELOADSHELL"
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "Shears",
+            "PickUpSound": "/Game/FMOD/Events/SFX/D_Items/SFX_KNIFE_PICKUP.SFX_KNIFE_PICKUP",
+            "DropSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM",
+            "HitSound": "/Game/FMOD/Events/SFX/Weapons/Metal_Knife/SFX_IMPACT_SHEARS.SFX_IMPACT_SHEARS",
+            "BrokenSound": "/Game/FMOD/Events/SFX/D_Items/SFX_TOOL_BREAK.SFX_TOOL_BREAK",
+            "UseWhenBrokenSound": "/Game/FMOD/Events/UI/Generic/SFX_GENERIC_UI_FAIL.SFX_GENERIC_UI_FAIL",
+            "RepairedSound": "/Game/FMOD/Events/SFX/D_Items/SFX_TOOL_REPAIR.SFX_TOOL_REPAIR",
+            "DestroyedSound": "/Game/FMOD/Events/SFX/D_Items/SFX_ITEM_DESTROY.SFX_ITEM_DESTROY",
+            "AnimSounds": {
+                "Swing": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Knife/SFX_WEP_KNIFE_ATTACK_METAL.SFX_WEP_KNIFE_ATTACK_METAL"
+                    ]
+                },
+                "Throw": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_KNIFE_FLY_METAL.SFX_BALLISTIC_KNIFE_FLY_METAL"
+                    ]
+                },
+                "Equip": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Knife/SFX_WEP_KNIFE_EQUIP_METAL.SFX_WEP_KNIFE_EQUIP_METAL"
+                    ]
+                },
+                "Skin": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Knife/SFX_WEP_KNIFE_SKINCREATURE_N1.SFX_WEP_KNIFE_SKINCREATURE_N1"
+                    ]
+                }
+            }
+        },
+        {
+            "Name": "CHAC_Rifle",
+            "PickUpSound": "/Game/FMOD/Events/SFX/Weapons/Guns/SFX_GUN_MOVE_PICKUP.SFX_GUN_MOVE_PICKUP",
+            "DropSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM.UI_INV_DROPITEM",
+            "BrokenSound": "/Game/FMOD/Events/SFX/D_Items/SFX_TOOL_BREAK.SFX_TOOL_BREAK",
+            "UseWhenBrokenSound": "/Game/FMOD/Events/UI/Generic/SFX_GENERIC_UI_FAIL.SFX_GENERIC_UI_FAIL",
+            "RepairedSound": "/Game/FMOD/Events/SFX/D_Items/SFX_TOOL_REPAIR.SFX_TOOL_REPAIR",
+            "DestroyedSound": "/Game/FMOD/Events/SFX/D_Items/SFX_ITEM_DESTROY.SFX_ITEM_DESTROY",
+            "AnimSounds": {
+                "Carry": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_RIFLE_CARRY.SFX_RIFLE_CARRY"
+                    ]
+                },
+                "Lever": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_CHAC_RIFLE_LEVEROUT.SFX_CHAC_RIFLE_LEVEROUT",
+                        "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_CHAC_RIFLE_LEVERIN.SFX_CHAC_RIFLE_LEVERIN"
+                    ]
+                },
+                "Load": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_CHAC_RIFLE_RELOAD.SFX_CHAC_RIFLE_RELOAD"
+                    ]
+                },
+                "Equip": {
+                    "FMODEvents": [
+                        "/Game/FMOD/Events/SFX/Weapons/Guns/Rifle/SFX_CHAC_RIFLE_MOVE_EQUIP.SFX_CHAC_RIFLE_MOVE_EQUIP"
                     ]
                 }
             }

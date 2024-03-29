@@ -791,6 +791,25 @@
             }
         },
         {
+            "Name": "Ghost_Crocodile",
+            "CreatureName": "INVTEXT(\"[DNT] Ghost Crocodile\")",
+            "Tag": {
+                "TagName": "NPC.GhostCrocodile"
+            },
+            "SpawnStat": {
+                "Value": "GhostCrocodileSpawnRate_+%"
+            },
+            "AdditionalDamageStat": {
+                "Value": "GhostCrocodileExtraDamage_+%"
+            },
+            "AdditionalResistanceStat": {
+                "Value": "GhostCrocodileExtraDamageResistance_+%"
+            },
+            "SkinningXPEvent": {
+                "RowName": "Skin_Ghost_Crocodile"
+            }
+        },
+        {
             "Name": "Komodo",
             "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"Komodo-CreatureName\", \"Komodo\")",
             "Tag": {
@@ -1584,12 +1603,12 @@
         },
         {
             "Name": "Kiwi",
-            "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"Kiwi-CreatureName\", \"Buffalo\")",
+            "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"Kiwi-CreatureName\", \"Kiwi\")",
             "Tag": {
                 "TagName": "NPC.Kiwi"
             },
             "SkinningXPEvent": {
-                "RowName": "Skin_Buffalo"
+                "RowName": "Skin_Kiwi"
             }
         },
         {
@@ -1609,6 +1628,13 @@
             },
             "SkinningXPEvent": {
                 "RowName": "Skin_Mammoth"
+            }
+        },
+        {
+            "Name": "Ape",
+            "CreatureName": "INVTEXT(\"[DNT] Ape\")",
+            "Tag": {
+                "TagName": "NPC.Ape"
             }
         }
     ]

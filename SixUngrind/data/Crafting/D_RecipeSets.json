@@ -363,13 +363,18 @@
         {
             "Name": "WaterPurifierT2",
             "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"WaterPurifierT2-RecipeSetName\", \"Water Purifier\")",
-            "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Kit_Oxite_Dissolver.ITEM_Kit_Oxite_Dissolver",
+            "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Water_Purifier_T2.T_ITEM_Water_Purifier_T2",
             "ExperienceMultiplier": 0.20000000298023224
         },
         {
             "Name": "Cleaning_Device",
             "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Cleaning_Device-RecipeSetName\", \"Cleaning Device\")",
             "DisplayText": "NSLOCTEXT(\"D_RecipeSets\", \"Cleaning_Device-DisplayText\", \"An active water connection will increase processing speed.\")",
+            "ExperienceMultiplier": 0.20000000298023224
+        },
+        {
+            "Name": "Animal_Bench",
+            "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Animal_Bench-RecipeSetName\", \"Ranging Station\")",
             "ExperienceMultiplier": 0.20000000298023224
         }
     ]

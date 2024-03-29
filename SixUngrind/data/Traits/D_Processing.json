@@ -292,6 +292,7 @@
             },
             "RequiresEnergy": false,
             "bRequiresShelter": true,
+            "QueueSize": 5,
             "MaxMilliwattage": 500
         },
         {
@@ -511,7 +512,10 @@
             "QueueSize": 5
         },
         {
-            "Name": "WaterPurifier_T2"
+            "Name": "WaterPurifier_T2",
+            "RequiresEnergy": false,
+            "MaxMilliwattage": 0,
+            "AutoTurnOffDeviceWhileNotProcessing": false
         },
         {
             "Name": "T3_Cleaning_Device",
@@ -525,6 +529,14 @@
                     "RowName": "NewFrontiers"
                 }
             }
+        },
+        {
+            "Name": "Animal_Bench",
+            "DefaultRecipeSet": {
+                "RowName": "Animal_Bench"
+            },
+            "RequiresEnergy": false,
+            "QueueSize": 5
         }
     ]
 }

@@ -2377,7 +2377,7 @@
             "Name": "Item_Concrete_Wall_Angle",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Wall_Angle-DisplayName\", \"Concrete Wall Angled\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Concrete_Wall_Angle_0.ITEM_Concrete_Wall_Angle_0",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Wall_Angle-Description\", \"Moulded inserts for gables and other angular constructions..\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Concrete_Wall_Angle-Description\", \"Moulded inserts for gables and other angular constructions.\")",
             "Weight": 5000,
             "MaxStack": 20
         },
@@ -5080,7 +5080,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Beta-DisplayName\", \"MXC Nerve Arrow Bundle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Meta_Arrow_Printed_Set.ITEM_Meta_Arrow_Printed_Set",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Beta-Description\", \"Five arrows tipped with a rapid-action nerve agent that slows targets. \\'CONSUME\\' to open bundle.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Beta-FlavorText\", \"Additive manufacturing became the production process of choice following much needed advances in micro-recycling, which allowed almost any mettalic compound to be processed, purified and reused as print material.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Arrow_Set_Printed_Beta-FlavorText\", \"Additive manufacturing became the production process of choice following much needed advances in micro-recycling, which allowed almost any metallic compound to be processed, purified and reused as print material.\")",
             "Weight": 100
         },
         {
@@ -13935,7 +13935,7 @@
             "Name": "Item_Larkwell_Armor_Black_Head",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Head-DisplayName\", \"Larkwell Martinez Psionic Head Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_Black_Head.T_ITEM_Larkwell_Armor_Black_Head",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Head-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Head-Description\", \"Part of an armor set designed for braving the elements while exploring Icarus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Head-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -13943,7 +13943,7 @@
             "Name": "Item_Larkwell_Armor_Black_Chest",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Chest-DisplayName\", \"Larkwell Martinez Psionic Chest Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_Black_Chest.T_ITEM_Larkwell_Armor_Black_Chest",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Chest-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Chest-Description\", \"Part of an armor set designed for braving the elements while exploring Icarus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Chest-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -13951,7 +13951,7 @@
             "Name": "Item_Larkwell_Armor_Black_Arms",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Arms-DisplayName\", \"Larkwell Martinez Psionic Arm Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_Black_Arms.T_ITEM_Larkwell_Armor_Black_Arms",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Arms-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Arms-Description\", \"Part of an armor set designed for braving the elements while exploring Icarus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Arms-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -13959,7 +13959,7 @@
             "Name": "Item_Larkwell_Armor_Black_Legs",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Legs-DisplayName\", \"Larkwell Martinez Psionic Leg Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_Black_Legs.T_ITEM_Larkwell_Armor_Black_Legs",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Legs-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Legs-Description\", \"Part of an armor set designed for braving the elements while exploring Icarus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Legs-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -13967,7 +13967,7 @@
             "Name": "Item_Larkwell_Armor_Black_Feet",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Feet-DisplayName\", \"Larkwell Martinez Psionic Feet Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_Black_Feet.T_ITEM_Larkwell_Armor_Black_Feet",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Feet-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Feet-Description\", \"Part of an armor set designed for braving the elements while exploring Icarus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_Black_Feet-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -13975,7 +13975,7 @@
             "Name": "Item_Larkwell_Armor_White_Head",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Head-DisplayName\", \"Larkwell Martinez Xenome Head Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_White_Head.T_ITEM_Larkwell_Armor_White_Head",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Head-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Head-Description\", \"Part of an armor set designed with the comforts of home-base living in mind.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Head-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -13983,7 +13983,7 @@
             "Name": "Item_Larkwell_Armor_White_Chest",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Chest-DisplayName\", \"Larkwell Martinez Xenome Chest Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_White_Chest.T_ITEM_Larkwell_Armor_White_Chest",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Chest-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Chest-Description\", \"Part of an armor set designed with the comforts of home-base living in mind.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Chest-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -13991,7 +13991,7 @@
             "Name": "Item_Larkwell_Armor_White_Arms",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Arms-DisplayName\", \"Larkwell Martinez Xenome Arm Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_White_Arms.T_ITEM_Larkwell_Armor_White_Arms",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Arms-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Arms-Description\", \"Part of an armor set designed with the comforts of home-base living in mind.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Arms-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -13999,7 +13999,7 @@
             "Name": "Item_Larkwell_Armor_White_Legs",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Legs-DisplayName\", \"Larkwell Martinez Xenome Leg Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_White_Legs.T_ITEM_Larkwell_Armor_White_Legs",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Legs-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Legs-Description\", \"Part of an armor set designed with the comforts of home-base living in mind.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Legs-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -14007,7 +14007,7 @@
             "Name": "Item_Larkwell_Armor_White_Feet",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Feet-DisplayName\", \"Larkwell Martinez Xenome Feet Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Larkwell_Armor_White_Feet.T_ITEM_Larkwell_Armor_White_Feet",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Feet-Description\", \"This tactical armor provides an increase to sprint speed and stamina.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Feet-Description\", \"Part of an armor set designed with the comforts of home-base living in mind.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Larkwell_Armor_White_Feet-FlavorText\", \"Larkwell Martinez: Your Companion In Adventure\")",
             "Weight": 1000
         },
@@ -14221,18 +14221,26 @@
             "Weight": 500
         },
         {
-            "Name": "Item_Water_Purifier_T1",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T1-DisplayName\", \"Basic Water Purifier\")",
+            "Name": "Item_Water_Purifier_T1_Water",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T1_Water-DisplayName\", \"Basic Water Purifier\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Water_Purifier_T1_1.T_ITEM_Water_Purifier_T1_1",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T1-Description\", \"A simple water purifier that can be placed into a body of water or can collect rainwater.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T1-FlavorText\", \"Hydrate!\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T1_Water-Description\", \"A simple water purifier that can be placed into a body of water to create filtered water.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T1_Water-FlavorText\", \"Hydrate!\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Water_Purifier_T1_Ground",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T1_Ground-DisplayName\", \"Basic Rainwater Purifier\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Water_Purifier_T1_2.T_ITEM_Water_Purifier_T1_2",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T1_Ground-Description\", \"A simple water purifier that collects and purifies rainwater.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T1_Ground-FlavorText\", \"Hydrate!\")",
             "Weight": 1000
         },
         {
             "Name": "Item_Water_Purifier_T2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T2-DisplayName\", \"Water Purifier\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Water_Purifier_T2.T_ITEM_Water_Purifier_T2",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T2-Description\", \"A water purifier that can be placed in a body of water to make it safe for human consumption.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T2-Description\", \"A water purifier that can be connected to a water network to filter water and make it safe for human consumption.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Purifier_T2-FlavorText\", \"Hydration is key.\")",
             "Weight": 2500
         },
@@ -14878,7 +14886,7 @@
             "Name": "Item_Gold_Fireplace_Ext",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Fireplace_Ext-DisplayName\", \"Art Deco Fireplace Extension\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Gold_Fireplace_Ext1.T_ITEM_Gold_Fireplace_Ext1",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Fireplace_Ext-Description\", \"A gilded fireplace that embodies the sleek, decorative essence of traditional Art Deco design.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Fireplace_Ext-Description\", \"A gilded fireplace extension that embodies the sleek, decorative essence of traditional Art Deco design.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Fireplace_Ext-FlavorText\", \"Art Deco is a decorative art and architectural style characterized by bold geometric patterns, and sleek lines which emerged in the 1920s and 30s on Earth.\")",
             "Weight": 5000
         },
@@ -14886,7 +14894,7 @@
             "Name": "Item_Gold_Fireplace_Cap",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Fireplace_Cap-DisplayName\", \"Art Deco Fireplace Cap\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Fireplace_Chimney_Cap1.T_ITEM_Fireplace_Chimney_Cap1",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Fireplace_Cap-Description\", \"A gilded fireplace that embodies the sleek, decorative essence of traditional Art Deco design.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Fireplace_Cap-Description\", \"A gilded fireplace cap that embodies the sleek, decorative essence of traditional Art Deco design.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Gold_Fireplace_Cap-FlavorText\", \"Art Deco is a decorative art and architectural style characterized by bold geometric patterns, and sleek lines which emerged in the 1920s and 30s on Earth.\")",
             "Weight": 5000
         },
@@ -14966,7 +14974,7 @@
             "Name": "Beehive_Extractor",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Beehive_Extractor-DisplayName\", \"Beehive Extractor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Beehive_Extractor.T_ITEM_Beehive_Extractor",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Beehive_Extractor-Description\", \"An extractor that attaches the a beehive that can process Honeycomb into Honey and Beeswax.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Beehive_Extractor-Description\", \"An extractor that attaches to a beehive that can process Honeycomb into Honey and Beeswax.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Beehive_Extractor-FlavorText\", \"The Bees of Icarus are known for their long, needle-like stingers which are capable of piercing even the toughest of envirosuits. Proceed with caution.\")",
             "Weight": 5000
         },
@@ -15056,10 +15064,10 @@
         },
         {
             "Name": "Item_Meta_Shield_9Diamonds",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Shield_9Diamonds-DisplayName\", \"Nine of Diamonds Shield\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Shield_9Diamonds-DisplayName\", \"Graffitied Shield\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Shields/T_ITEM_Meta_Shield_9Diamonds.T_ITEM_Meta_Shield_9Diamonds",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Shield_9Diamonds-Description\", \"Reflects some damage to attackers while only using shield.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Shield_9Diamonds-FlavorText\", \"Brought to you by TPS (The Peoples Syndicate)\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Shield_9Diamonds-Description\", \"Will reflect some damage back to your attacker when wielded exclusively.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Shield_9Diamonds-FlavorText\", \"It\\'s time to rise up. Join us! - TPS (The People\\'s Syndicate)\")",
             "Weight": 2000
         },
         {
@@ -15126,28 +15134,38 @@
         },
         {
             "Name": "Item_Black_Wolf_Head",
-            "DisplayName": "INVTEXT(\"[DNT] Black Wolf Helmet\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Head.T_ITEM_Black_Wolf_Head"
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Head-DisplayName\", \"Black Wolf Head Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Head.T_ITEM_Black_Wolf_Head",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Head-Description\", \"A piece of specialty armor perfect for hunting in the forests of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Head-FlavorText\", \"Wearing this item may result in a severe urge to howl at the moon.\")"
         },
         {
             "Name": "Item_Black_Wolf_Chest",
-            "DisplayName": "INVTEXT(\"[DNT] Black Wolf Armor\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Chest.T_ITEM_Black_Wolf_Chest"
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Chest-DisplayName\", \"Black Wolf Chest Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Chest.T_ITEM_Black_Wolf_Chest",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Chest-Description\", \"A piece of specialty armor perfect for hunting in the forests of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Chest-FlavorText\", \"Wearing this item may result in a severe urge to howl at the moon.\")"
         },
         {
             "Name": "Item_Black_Wolf_Feet",
-            "DisplayName": "INVTEXT(\"[DNT] Black Wolf Boots\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Feet.T_ITEM_Black_Wolf_Feet"
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Feet-DisplayName\", \"Black Wolf Feet Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Feet.T_ITEM_Black_Wolf_Feet",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Feet-Description\", \"A piece of specialty armor perfect for hunting in the forests of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Feet-FlavorText\", \"Wearing this item may result in a severe urge to howl at the moon.\")"
         },
         {
             "Name": "Item_Black_Wolf_Arms",
-            "DisplayName": "INVTEXT(\"[DNT] Black Wolf Gloves\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Arms.T_ITEM_Black_Wolf_Arms"
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Arms-DisplayName\", \"Black Wolf Arm Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Arms.T_ITEM_Black_Wolf_Arms",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Arms-Description\", \"A piece of specialty armor perfect for hunting in the forests of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Arms-FlavorText\", \"Wearing this item may result in a severe urge to howl at the moon.\")"
         },
         {
             "Name": "Item_Black_Wolf_Legs",
-            "DisplayName": "INVTEXT(\"[DNT] Black Wolf Pants\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Legs.T_ITEM_Black_Wolf_Legs"
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Legs-DisplayName\", \"Black Wolf Legs Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Black_Wolf_Legs.T_ITEM_Black_Wolf_Legs",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Legs-Description\", \"A piece of specialty armor perfect for hunting in the forests of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Black_Wolf_Legs-FlavorText\", \"Wearing this item may result in a severe urge to howl at the moon.\")"
         },
         {
             "Name": "Item_Giant_Steak_Smoked",
@@ -15526,6 +15544,7 @@
         {
             "Name": "Item_Saddle_Desert",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Desert-DisplayName\", \"Desert Tracker Saddle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Saddle_Desert.T_ITEM_Saddle_Desert",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Desert-Description\", \"A fashionable saddle for your mount for the harsh Desert conditions.\")",
             "Weight": 1500
         },
@@ -15540,12 +15559,13 @@
         {
             "Name": "Item_Saddle_Explorer",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Explorer-DisplayName\", \"Arctic Explorer Saddle\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Explorer-Description\", \"A fashionable saddle for your mount that is designed for Arctic enviroments.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Explorer-Description\", \"A fashionable saddle for your mount that is designed for Arctic environments.\")",
             "Weight": 1500
         },
         {
             "Name": "Item_Saddle_Racing",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Racing-DisplayName\", \"Racing Saddle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Saddle_Racing.T_ITEM_Saddle_Racing",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Racing-Description\", \"A slim sleek saddle that allows the mount to move uninhibited.\")",
             "Weight": 1500
         },
@@ -15653,7 +15673,7 @@
         },
         {
             "Name": "Item_Platinum_Shovel",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Shovel-DisplayName\", \"Platnium Shovel\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Shovel-DisplayName\", \"Platinum Shovel\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Platinium_Shovel.T_ITEM_Platinium_Shovel",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Shovel-Description\", \"Can be used to dig dirt mounds on Dirt or Grass, or shovel ash or snow off your roof. Provides slight storm resistance to your crops.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Shovel-FlavorText\", \"Shift snow, or bury a friend.\")",
@@ -15679,21 +15699,23 @@
             "Name": "Item_Beacon_Tool",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Beacon_Tool-DisplayName\", \"Prototype Trail Beacon Tool\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Scanner_DeepOre.ITEM_Scanner_DeepOre",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Beacon_Tool-Description\", \"A tool to drop beacons to assist you in your exploration of Icarus.\")",
             "Weight": 375
         },
         {
             "Name": "Item_Trail_Beacon",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Trail_Beacon-DisplayName\", \"Prototype Trail Beacon\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Trail_Beacon.T_ITEM_Trail_Beacon",
-            "Description": "INVTEXT(\"[DNT] Place with the Beacon Tool\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Trail_Beacon-Description\", \"A beacon to assist you in creating a breadcrumb trail to find your way back out of uncharted territory.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Trail_Beacon-FlavorText\", \"Light your way home.\")",
             "Weight": 500,
             "MaxStack": 20
         },
         {
             "Name": "Item_Carcass_MiniHippo",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_MiniHippo-DisplayName\", \"Dribbo Carcass\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_MiniHippo-Description\", \"A gentle territorial herbivour that you have slain.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_MiniHippo-FlavorText\", \"Its kind of cute, in a mutated hippo kinda way.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_MiniHippo-Description\", \"A gentle territorial herbivore that you have slain.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_MiniHippo-FlavorText\", \"It\\'s kind of cute, in a mutated hippo kind of way.\")",
             "Weight": 6000
         },
         {
@@ -15754,7 +15776,7 @@
         },
         {
             "Name": "Item_Enzyme_Cannon_Arm",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Cannon_Arm-DisplayName\", \"Enzyme Powered Chanelling Cannon\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Cannon_Arm-DisplayName\", \"Enzyme Powered Channeling Cannon\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Enzyme_Cannon_Arm.T_ITEM_Enzyme_Cannon_Arm",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Cannon_Arm-Description\", \"Must be placed around the Enzyme Powered Weather Device and acts as a conduit to charge and focus the device.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Cannon_Arm-FlavorText\", \"What is Group 15 up to with devices like this?\")",
@@ -15850,7 +15872,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Wool-DisplayName\", \"Wool\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Wool.T_ITEM_Wool",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Wool-Description\", \"Raw wool shorn from a sheep or collected from its corpse.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Wool-FlavorText\", \"Ba Ba Black Sheep....\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Wool-FlavorText\", \"Ba Ba Black Sheep...\")",
             "Weight": 500,
             "MaxStack": 50
         },
@@ -15947,8 +15969,8 @@
             "Name": "Item_Shotgun_CHAC",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Shotgun_CHAC-DisplayName\", \"CHAC \\\"Boomstick\\\" Shotgun\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ITEM_Shotgun_CHAC.T_ITEM_Shotgun_CHAC",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Shotgun_CHAC-Description\", \"A heavy hitting shotgun, built for creature supression.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Shotgun_CHAC-FlavorText\", \"The lastest addition from the China Hangzhou Armament Company\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Shotgun_CHAC-Description\", \"A heavy hitting shotgun, built for creature suppression.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Shotgun_CHAC-FlavorText\", \"The latest addition from the China Hangzhou Armament Company\")",
             "Weight": 2000
         },
         {
@@ -15986,7 +16008,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Heated-DisplayName\", \"Heated Animal Bed\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Bed_Heated.T_ITEM_Animal_Bed_Heated",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Heated-Description\", \"Juvenile animals can use this as a designated sleeping spot\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Heated-FlavorText\", \"Like the one on earth for cats, only bigger.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Heated-FlavorText\", \"Only the best of the best for your precious pet.\")",
             "Weight": 1500
         },
         {
@@ -16002,7 +16024,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_WolfSkin-DisplayName\", \"Wolfskin Animal Bed\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Bed_WolfSkin.T_ITEM_Animal_Bed_WolfSkin",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_WolfSkin-Description\", \"Juvenile animals can use this as a designated sleeping spot\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_WolfSkin-FlavorText\", \"Quick and Dirty Comfort\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_WolfSkin-FlavorText\", \"Rough but comfortable enough.\")",
             "Weight": 1500
         },
         {
@@ -16010,7 +16032,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_SnowLeopardSkin-DisplayName\", \"Snow Leopard Skin Animal Bed\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Bed_SnowLeopardSkin.T_ITEM_Animal_Bed_SnowLeopardSkin",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_SnowLeopardSkin-Description\", \"Juvenile animals can use this as a designated sleeping spot\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_SnowLeopardSkin-FlavorText\", \"You killed a rare animal to make a bed for your pet.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_SnowLeopardSkin-FlavorText\", \"Wow. You killed a rare animal to make a bed for your pet.\")",
             "Weight": 1500
         },
         {
@@ -16052,6 +16074,229 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Chicken_Coop_Red-Description\", \"A state of the art coop that chickens can go to feel safe, and lay eggs.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Chicken_Coop_Red-FlavorText\", \"Why do chickens have a better house than you?\")",
             "Weight": 1500
+        },
+        {
+            "Name": "Item_Animal_Bed_Emperor",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Emperor-DisplayName\", \"Regent Animal Bed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Bed_Emperor.T_ITEM_Animal_Bed_Emperor",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Emperor-Description\", \"Juvenile animals can use this as a designated sleeping spot\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Emperor-FlavorText\", \"Treat your animal like the King or Queen they are.\")",
+            "Weight": 1500
+        },
+        {
+            "Name": "Item_Animal_Bed_Striker",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Striker-DisplayName\", \"Striker Terrenus Animal Bed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Bed_Striker.T_ITEM_Animal_Bed_Striker",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Striker-Description\", \"Juvenile animals can use this as a designated sleeping spot\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Striker-FlavorText\", \"Hopefully this bed doesn\\'t give your pet nightmares.\")",
+            "Weight": 1500
+        },
+        {
+            "Name": "Item_Animal_Bed_Leopard",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Leopard-DisplayName\", \"Jaguar Buffalo Animal Bed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Bed_Leopard.T_ITEM_Animal_Bed_Leopard",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Leopard-Description\", \"Juvenile animals can use this as a designated sleeping spot\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Leopard-FlavorText\", \"The spots make them run faster in their dreams.\")",
+            "Weight": 1500
+        },
+        {
+            "Name": "Item_Animal_Bed_Tusker",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Tusker-DisplayName\", \"Black Tusker Animal Bed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Bed_Tusker.T_ITEM_Animal_Bed_Tusker",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Tusker-Description\", \"Juvenile animals can use this as a designated sleeping spot\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Tusker-FlavorText\", \"A rough but mostly comfortable bed.\")",
+            "Weight": 1500
+        },
+        {
+            "Name": "Item_Animal_Bed_Zebra",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Zebra-DisplayName\", \"Zebra Animal Bed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Animal_Bed_Zebra.T_ITEM_Animal_Bed_Zebra",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Zebra-Description\", \"Juvenile animals can use this as a designated sleeping spot\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Animal_Bed_Zebra-FlavorText\", \"Warning: Stripes may rub off onto your pet over time.\")",
+            "Weight": 1500
+        },
+        {
+            "Name": "Item_Carcass_Ghost_Crocodile",
+            "DisplayName": "INVTEXT(\"[DNT] Ghost Crocodile Carcass\")",
+            "Description": "INVTEXT(\"[DNT] Ghost Crocodile Carcass\")",
+            "FlavorText": "INVTEXT(\"[DNT] Ghost Crocodile Carcass\")",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Carcass_Ape",
+            "DisplayName": "INVTEXT(\"[DNT] Ape\")",
+            "Description": "INVTEXT(\"[DNT] Ape\")",
+            "FlavorText": "INVTEXT(\"[DNT] Ape\")",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Mission_AudioLog_Prometheus_4",
+            "DisplayName": "INVTEXT(\"[DNT] Icesheet Audio Log\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Modules/ITEM_Module_Compass.ITEM_Module_Compass",
+            "Description": "INVTEXT(\"[DNT] Crazed Scientist Log\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_Water_Container",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Water_Container-DisplayName\", \"Water Container\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/T_ICON_WaterStorage.T_ICON_WaterStorage",
+            "Weight": 1
+        },
+        {
+            "Name": "Item_Workshop_Chicken",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Chicken-DisplayName\", \"Cryogenically Frozen Chicken\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Workshop_Chicken.T_ITEM_Workshop_Chicken",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Chicken-Description\", \"A Chicken preserved in a cryogenic stasis that can be deployed and defrosted on planet.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Chicken-FlavorText\", \"Comes in 3 different colours\")",
+            "Weight": 10
+        },
+        {
+            "Name": "Item_Workshop_Sheep",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Sheep-DisplayName\", \"Cryogenically Frozen Sheep\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Workshop_Sheep.T_ITEM_Workshop_Sheep",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Sheep-Description\", \"A Sheep preserved in a cryogenic stasis that can be deployed and defrosted on planet.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Sheep-FlavorText\", \"Ba Ba Black Sheep...\")",
+            "Weight": 10
+        },
+        {
+            "Name": "Item_Hitching_Post",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Hitching_Post-DisplayName\", \"Hitching Post\")",
+            "Weight": 500,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Snare_Trap",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Snare_Trap-DisplayName\", \"Snare Trap\")",
+            "Weight": 1,
+            "MaxStack": 350
+        },
+        {
+            "Name": "Item_Hitching_Rope",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Hitching_Rope-DisplayName\", \"Hitching Rope\")",
+            "Weight": 150,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Pistol_CHAC",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Pistol_CHAC-DisplayName\", \"CHAC \\\"Sentinel\\\" Pistol\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ITEM_Pistol_CHAC.T_ITEM_Pistol_CHAC",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Pistol_CHAC-FlavorText\", \"The latest addition from the China Hangzhou Armament Company\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Rifle_CHAC",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Rifle_CHAC-DisplayName\", \"CHAC \\\"Sovereign\\\" Rifle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ITEM_Rifle_CHAC.T_ITEM_Rifle_CHAC",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Rifle_CHAC-FlavorText\", \"The latest addition from the China Hangzhou Armament Company\")",
+            "Weight": 3000
+        },
+        {
+            "Name": "Item_Carcass_Mount_Horse_Standard",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Mount_Horse_Standard-DisplayName\", \"Horse Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Terrenus.T_ITEM_AnimalCarcass_Terrenus",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Carcass_Dog_A",
+            "DisplayName": "INVTEXT(\"[DNT] Dog Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Terrenus.T_ITEM_AnimalCarcass_Terrenus",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Carcass_Dog_B",
+            "DisplayName": "INVTEXT(\"[DNT] Dog Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Terrenus.T_ITEM_AnimalCarcass_Terrenus",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Carcass_Dog_C",
+            "DisplayName": "INVTEXT(\"[DNT] Dog Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Terrenus.T_ITEM_AnimalCarcass_Terrenus",
+            "Weight": 5000
+        },
+        {
+            "Name": "Item_Carcass_Cat_A",
+            "DisplayName": "INVTEXT(\"[DNT] Cat Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Terrenus.T_ITEM_AnimalCarcass_Terrenus",
+            "Weight": 5000
+        },
+        {
+            "Name": "Pyritic_Crust_Stone",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Stone-DisplayName\", \"Noxious Crust (Stone)\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Pyritic_Crust.T_ITEM_Pyritic_Crust",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Stone-Description\", \"A heavily scarred stone with traces of metal and minerals. Use the Organic Residue Cleanser to gain Titanium Ore. Toxic to humans, this will damage you when carried.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Stone-FlavorText\", \"The UDA has issued an Icarus-wide health warning regarding this material. Use at your own risk.\")",
+            "Weight": 250,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Pyritic_Crust_Salt",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Salt-DisplayName\", \"Noxious Crust (Salt)\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Pyritic_Crust.T_ITEM_Pyritic_Crust",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Salt-Description\", \"A heavily scarred stone with traces of metal and minerals. Use the Organic Residue Cleanser to gain Titanium Ore. Toxic to humans, this will damage you when carried.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Salt-FlavorText\", \"The UDA has issued an Icarus-wide health warning regarding this material. Use at your own risk.\")",
+            "Weight": 250,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Pyritic_Crust_Limestone",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Limestone-DisplayName\", \"Noxious Crust (Limestone)\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Pyritic_Crust.T_ITEM_Pyritic_Crust",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Limestone-Description\", \"A heavily scarred stone with traces of metal and minerals. Use the Organic Residue Cleanser to gain Titanium Ore. Toxic to humans, this will damage you when carried.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Pyritic_Crust_Limestone-FlavorText\", \"The UDA has issued an Icarus-wide health warning regarding this material. Use at your own risk.\")",
+            "Weight": 250,
+            "MaxStack": 50
+        },
+        {
+            "Name": "Item_Workshop_Horse_A",
+            "DisplayName": "INVTEXT(\"[DNT] Cryogenically Frozen Horse\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Horse_A-Description\", \"A Horse preserved in a cryogenic stasis that can be deployed and defrosted on planet.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Horse_A-FlavorText\", \"Neigh\")",
+            "Weight": 10
+        },
+        {
+            "Name": "Item_Workshop_Dog_A",
+            "DisplayName": "INVTEXT(\"[DNT] Cryogenically Frozen Dog\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Dog_A-Description\", \"A Dog preserved in a cryogenic stasis that can be deployed and defrosted on planet.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Dog_A-FlavorText\", \"Woof\")",
+            "Weight": 10
+        },
+        {
+            "Name": "Item_Workshop_Cat_A",
+            "DisplayName": "INVTEXT(\"[DNT] Cryogenically Frozen Cat\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Cat_A-Description\", \"A Cat preserved in a cryogenic stasis that can be deployed and defrosted on planet.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Workshop_Cat_A-FlavorText\", \"Meow\")",
+            "Weight": 10
+        },
+        {
+            "Name": "Item_Animal_Bench",
+            "DisplayName": "INVTEXT(\"[DNT] Ranching Station\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Crafting_Bench.ITEM_Crafting_Bench",
+            "Description": "INVTEXT(\"[DNT] Craft Anything to do with creatures\")",
+            "Weight": 20000
+        },
+        {
+            "Name": "Item_Animal_Feed_High_Quality",
+            "DisplayName": "INVTEXT(\"[DNT] High Quality Animal Feed\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_Animal_Feed_High_Quality.T_Animal_Feed_High_Quality",
+            "Description": "INVTEXT(\"[DNT] Placed into the T4 Food Trough and Mulched up, provides a good buff\")",
+            "Weight": 50,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Workshop_Purification_Tablet",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Workshop_Purification_Tablet-DisplayName\", \"Xigo Puri-tab\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Water_Purification_Tablet.T_ITEM_Water_Purification_Tablet",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Workshop_Purification_Tablet-Description\", \"Will convert any Water into Treated Water. Removes any flavour effects.\")",
+            "Weight": 10
+        },
+        {
+            "Name": "Item_Purification_Pill",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Purification_Pill-DisplayName\", \"Water Treatment Pill\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Purification_Pill.T_ITEM_Purification_Pill",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Purification_Pill-Description\", \"Will remove the risk of Dysentery from Tainted / Rain water. Removes any flavour effects.\")",
+            "Weight": 10,
+            "MaxStack": 10
         }
     ]
 }

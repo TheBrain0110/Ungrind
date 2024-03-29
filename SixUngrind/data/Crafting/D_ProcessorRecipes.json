@@ -27,9 +27,11 @@
                 "DynamicProperties": []
             }
         ],
+        "Container": "None",
         "ResourceInputs": [],
         "bSelectOutputItemRandomly": false,
-        "ItemRandomSelect": {
+        "bContainsContainer": false,
+        "ItemIconOverride": {
             "ItemStaticData": {
                 "RowName": "None",
                 "DataTableName": "D_ItemsStatic"
@@ -3532,6 +3534,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -3591,6 +3601,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -3868,6 +3882,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -3920,6 +3942,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -3970,6 +4000,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -4006,6 +4044,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -4051,6 +4097,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -4129,6 +4183,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -4190,6 +4252,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -4242,6 +4312,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -4304,6 +4382,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -4364,6 +4450,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -5525,6 +5619,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -6146,6 +6248,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -6639,6 +6749,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -6698,6 +6812,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -6869,6 +6987,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -6936,6 +7058,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -7122,6 +7248,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -7250,6 +7380,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -8235,6 +8369,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -10517,6 +10655,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -10561,6 +10707,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -10604,6 +10758,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -10656,6 +10818,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -10715,6 +10881,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -10764,6 +10934,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -10834,6 +11008,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -10900,6 +11078,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -10950,6 +11132,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -10993,6 +11183,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -11038,6 +11236,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -11081,6 +11287,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -11318,6 +11532,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -11364,6 +11582,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -11418,6 +11640,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -11470,6 +11696,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -11524,6 +11754,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -11576,6 +11810,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -11772,6 +12010,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -12474,6 +12716,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -12526,6 +12772,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -12561,6 +12811,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -12716,11 +12970,37 @@
                     "DynamicProperties": []
                 }
             ],
-            "Outputs": [],
+            "Container": "Water",
+            "bContainsContainer": true,
+            "ItemIconOverride": {
+                "ItemStaticData": {
+                    "RowName": "Any_Water_Container"
+                }
+            },
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Thermos",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": [
+                        {
+                            "RowName": "Cooling",
+                            "DataTableName": "D_Alterations"
+                        },
+                        {
+                            "RowName": "Rain_Water",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
+                }
+            ],
             "ResourceOutputs": [
                 {
                     "Type": "Water",
-                    "RequiredUnits": 200
+                    "RequiredUnits": 100
                 }
             ],
             "Audio": {
@@ -12736,6 +13016,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -12780,6 +13068,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -13232,6 +13528,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -13578,6 +13878,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -13639,6 +13947,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -13699,6 +14015,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -13880,6 +14200,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -13923,6 +14247,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -14077,6 +14405,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -14271,6 +14607,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -14579,6 +14923,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -14635,6 +14983,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -14693,6 +15045,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -14749,6 +15105,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -14807,6 +15167,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -14863,6 +15227,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -14921,6 +15289,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -14977,6 +15349,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -15035,6 +15411,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -15086,6 +15466,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -15139,6 +15523,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -15190,6 +15578,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -15376,6 +15768,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -16124,6 +16524,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -16392,6 +16796,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -17303,6 +17715,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -17448,6 +17868,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -17515,6 +17939,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -17706,6 +18134,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -17775,6 +18207,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -17835,6 +18271,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -17904,6 +18344,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -18341,6 +18785,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -18835,6 +19287,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -19000,6 +19456,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -19050,6 +19510,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -19095,6 +19559,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -20444,6 +20912,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -20496,6 +20972,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -20554,6 +21038,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -20616,6 +21108,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -20677,6 +21177,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -20734,6 +21242,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -20804,6 +21316,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -20873,6 +21389,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -20923,6 +21443,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -20972,6 +21496,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -21078,6 +21606,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -21554,6 +22086,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -21598,6 +22138,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -21652,6 +22196,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -21704,6 +22252,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -23538,6 +24090,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -24063,25 +24619,29 @@
                     },
                     "Count": 30,
                     "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Thermos",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": []
                 }
             ],
+            "Container": "Water",
+            "bContainsContainer": true,
+            "ItemIconOverride": {
+                "ItemStaticData": {
+                    "RowName": "Any_Water_Container"
+                }
+            },
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Thermos_GreenTea",
+                        "RowName": "Thermos",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
                     "DynamicProperties": [],
-                    "Alterations": []
+                    "Alterations": [
+                        {
+                            "RowName": "Green_Tea",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
                 }
             ],
             "Audio": {
@@ -24121,25 +24681,29 @@
                     },
                     "Count": 40,
                     "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Thermos",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": []
                 }
             ],
+            "Container": "Water",
+            "bContainsContainer": true,
+            "ItemIconOverride": {
+                "ItemStaticData": {
+                    "RowName": "Any_Water_Container"
+                }
+            },
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Thermos_WildTea",
+                        "RowName": "Thermos",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
                     "DynamicProperties": [],
-                    "Alterations": []
+                    "Alterations": [
+                        {
+                            "RowName": "Wild_Tea",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
                 }
             ],
             "Audio": {
@@ -24179,25 +24743,29 @@
                     },
                     "Count": 20,
                     "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Thermos",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": []
                 }
             ],
+            "Container": "Water",
+            "bContainsContainer": true,
+            "ItemIconOverride": {
+                "ItemStaticData": {
+                    "RowName": "Any_Water_Container"
+                }
+            },
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Thermos_Cocoa",
+                        "RowName": "Thermos",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
                     "DynamicProperties": [],
-                    "Alterations": []
+                    "Alterations": [
+                        {
+                            "RowName": "Cocoa",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
                 }
             ],
             "Audio": {
@@ -24237,25 +24805,29 @@
                     },
                     "Count": 40,
                     "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Thermos",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": []
                 }
             ],
+            "Container": "Water",
+            "bContainsContainer": true,
+            "ItemIconOverride": {
+                "ItemStaticData": {
+                    "RowName": "Any_Water_Container"
+                }
+            },
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Thermos_Coffee",
+                        "RowName": "Thermos",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
                     "DynamicProperties": [],
-                    "Alterations": []
+                    "Alterations": [
+                        {
+                            "RowName": "Coffee",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
                 }
             ],
             "Audio": {
@@ -24277,27 +24849,31 @@
                         "RowName": "Ice",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 50,
-                    "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Thermos",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 1,
+                    "Count": 10,
                     "DynamicProperties": []
                 }
             ],
+            "Container": "Water",
+            "bContainsContainer": true,
+            "ItemIconOverride": {
+                "ItemStaticData": {
+                    "RowName": "Any_Water_Container"
+                }
+            },
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Thermos_IceWater",
+                        "RowName": "Thermos",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
                     "DynamicProperties": [],
-                    "Alterations": []
+                    "Alterations": [
+                        {
+                            "RowName": "Ice_Water",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
                 }
             ],
             "Audio": {
@@ -24482,6 +25058,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -24535,6 +25115,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -24877,6 +25461,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -25183,6 +25771,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -25244,6 +25836,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -25303,6 +25903,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -25494,6 +26098,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -26256,6 +26864,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -26324,6 +26940,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -26394,6 +27018,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -26463,6 +27095,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -26529,6 +27169,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -26581,6 +27225,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -26748,6 +27396,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -26809,6 +27461,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -26860,6 +27520,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -27870,6 +28538,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -27921,6 +28593,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -27990,6 +28666,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -28747,7 +29431,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -28789,7 +29472,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -28831,7 +29513,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -28873,7 +29554,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -28941,6 +29621,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -28993,6 +29677,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -29451,6 +30139,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -31053,6 +31745,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -31104,6 +31804,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -33928,6 +34636,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -34407,6 +35119,10 @@
                 {
                     "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Animal_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -34472,6 +35188,10 @@
                 {
                     "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Animal_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -34520,6 +35240,18 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Animal_Bench",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34578,6 +35310,18 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Animal_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -34634,6 +35378,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -35563,6 +36311,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -35615,6 +36371,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -35775,6 +36535,10 @@
                 {
                     "RowName": "Electric_Armor_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Animal_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -35921,6 +36685,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -36375,6 +37147,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -36435,6 +37215,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -37051,6 +37839,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -37111,6 +37907,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -37329,6 +38133,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -37381,6 +38193,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -37424,6 +38244,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -37476,6 +38304,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -38788,6 +39624,10 @@
                 {
                     "RowName": "Carpentry_Bench_T4",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Animal_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -39062,6 +39902,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -39427,6 +40275,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -39715,6 +40567,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -41169,6 +42029,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -41204,6 +42068,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -42050,7 +42918,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42092,7 +42959,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42134,7 +43000,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42176,7 +43041,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42218,7 +43082,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42260,7 +43123,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42302,7 +43164,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42344,7 +43205,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42386,7 +43246,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42440,7 +43299,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42494,7 +43352,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42548,7 +43405,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42602,7 +43458,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42656,7 +43511,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42710,7 +43564,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42764,7 +43617,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42814,7 +43666,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42864,7 +43715,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42914,7 +43764,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -42972,7 +43821,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43030,7 +43878,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43088,7 +43935,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43146,7 +43992,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43196,7 +44041,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43246,7 +44090,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43296,7 +44139,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43346,7 +44188,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43396,7 +44237,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43454,7 +44294,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43512,7 +44351,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43562,7 +44400,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43612,7 +44449,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43662,7 +44498,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43712,7 +44547,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43778,7 +44612,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43828,7 +44661,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -43894,7 +44726,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -45218,6 +46049,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -45695,6 +46530,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -49472,6 +50311,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -49522,6 +50365,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -49571,6 +50418,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -49658,6 +50509,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -50263,6 +51118,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -50317,6 +51176,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -51256,6 +52119,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -51310,6 +52177,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -52148,6 +53019,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -52202,6 +53077,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -55081,7 +55960,7 @@
                 }
             ],
             "bSelectOutputItemRandomly": true,
-            "ItemRandomSelect": {
+            "ItemIconOverride": {
                 "ItemStaticData": {
                     "RowName": "Unknown_Ore"
                 }
@@ -56543,6 +57422,10 @@
                 {
                     "RowName": "Character",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Animal_Bench",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -56806,6 +57689,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -56935,6 +57822,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -58972,6 +59863,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -59041,6 +59936,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -59096,6 +59995,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -59150,6 +60053,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -59241,7 +60148,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59291,7 +60197,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59341,7 +60246,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59391,7 +60295,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59441,7 +60344,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59491,7 +60393,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59541,7 +60442,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59591,7 +60491,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59641,7 +60540,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59691,7 +60589,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59749,7 +60646,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59807,7 +60703,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59865,7 +60760,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59915,7 +60809,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -59973,7 +60866,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -60031,7 +60923,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -60081,7 +60972,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -60139,7 +61029,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -60197,7 +61086,6 @@
                     "Alterations": []
                 }
             ],
-            "Refundable": "Block",
             "Audio": {
                 "RowName": "CarpentryBench"
             }
@@ -60245,6 +61133,242 @@
             ],
             "Audio": {
                 "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Water_Purifier_T1_Water",
+            "Requirement": {
+                "RowName": "Water_Purifier_T1"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Character",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 25,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 4,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Charcoal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Water_Purifier_T1_Water",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Water_Purifier_T1_Ground",
+            "Requirement": {
+                "RowName": "Water_Purifier_T1"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Character",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Charcoal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Water_Purifier_T1_Ground",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Water_Purifier_T2",
+            "Requirement": {
+                "RowName": "Water_Purifier_T2"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 40,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 30,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Water_Purifier_T2",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
+            }
+        },
+        {
+            "Name": "Water_Purifier_T4",
+            "Requirement": {
+                "RowName": "Water_Purifier_T4"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Plate",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 10,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Aluminium",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 14,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Water_Purifier_T4",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
             }
         },
         {
@@ -63181,6 +64305,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -63189,7 +64321,23 @@
                         "RowName": "Fur",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 1,
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Wood",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Fiber",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 0,
                     "DynamicProperties": []
                 }
             ],
@@ -64130,6 +65278,14 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -64182,6 +65338,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -64296,6 +65456,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -65001,25 +66165,29 @@
                     },
                     "Count": 5,
                     "DynamicProperties": []
-                },
-                {
-                    "Element": {
-                        "RowName": "Thermos",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Count": 1,
-                    "DynamicProperties": []
                 }
             ],
+            "Container": "Water",
+            "bContainsContainer": true,
+            "ItemIconOverride": {
+                "ItemStaticData": {
+                    "RowName": "Any_Water_Container"
+                }
+            },
             "Outputs": [
                 {
                     "Element": {
-                        "RowName": "Honey_Tea",
+                        "RowName": "Thermos",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 1,
                     "DynamicProperties": [],
-                    "Alterations": []
+                    "Alterations": [
+                        {
+                            "RowName": "Honey_Tea",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
                 }
             ],
             "Audio": {
@@ -66580,6 +67748,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -66648,6 +67820,10 @@
             "RecipeSets": [
                 {
                     "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -66771,6 +67947,10 @@
                 {
                     "RowName": "Machining_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -66820,6 +68000,290 @@
             ],
             "Audio": {
                 "RowName": "MachiningBench"
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Stone",
+            "RequiredMillijoules": 12500,
+            "RecipeSets": [
+                {
+                    "RowName": "Exotic_Processor",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Cleaning_Device",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Pyritic_Crust_Stone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Stone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "Ovens"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Salt",
+            "RequiredMillijoules": 12500,
+            "RecipeSets": [
+                {
+                    "RowName": "Exotic_Processor",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Cleaning_Device",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Pyritic_Crust_Salt",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Salt",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "Ovens"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Pyritic_Crust_Limestone",
+            "RequiredMillijoules": 12500,
+            "RecipeSets": [
+                {
+                    "RowName": "Exotic_Processor",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Cleaning_Device",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Pyritic_Crust_Limestone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Limestone",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": [],
+                    "Alterations": []
+                }
+            ],
+            "Audio": {
+                "RowName": "Ovens"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "NewFrontiers"
+                }
+            }
+        },
+        {
+            "Name": "Purify_Water",
+            "RequiredMillijoules": 5000,
+            "RecipeSets": [
+                {
+                    "RowName": "Character",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Workshop_Purification_Tablet",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Container": "Water",
+            "bContainsContainer": true,
+            "ItemIconOverride": {
+                "ItemStaticData": {
+                    "RowName": "Any_Water_Container"
+                }
+            },
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Thermos",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": [
+                        {
+                            "RowName": "Treated_Water",
+                            "DataTableName": "D_Alterations"
+                        },
+                        {
+                            "RowName": "Cooling",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
+                }
+            ],
+            "Audio": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Clean_Water",
+            "RequiredMillijoules": 5000,
+            "RecipeSets": [
+                {
+                    "RowName": "Character",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Purification_Pill",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Container": "Water",
+            "bContainsContainer": true,
+            "ItemIconOverride": {
+                "ItemStaticData": {
+                    "RowName": "Any_Water_Container"
+                }
+            },
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Thermos",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": [
+                        {
+                            "RowName": "Filtered_Water",
+                            "DataTableName": "D_Alterations"
+                        },
+                        {
+                            "RowName": "Cooling",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
+                }
+            ],
+            "Audio": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "Purification_Pill",
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Kitchen_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Chemistry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Salt",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 2,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Charcoal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 3,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Purification_Pill",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": [],
+                    "Alterations": [
+                        {
+                            "RowName": "Filtered_Water",
+                            "DataTableName": "D_Alterations"
+                        },
+                        {
+                            "RowName": "Cooling",
+                            "DataTableName": "D_Alterations"
+                        }
+                    ]
+                }
+            ],
+            "Audio": {
+                "RowName": "Glassbench"
             }
         }
     ]

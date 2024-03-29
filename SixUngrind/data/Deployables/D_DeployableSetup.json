@@ -5711,8 +5711,6 @@
         {
             "Name": "Water_Purifier_T1_Water",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T1_Water.BP_Water_Purifier_T1_Water_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Water_Purifier_T1_1.T_ITEM_Water_Purifier_T1_1",
-            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Water_Purifier_T1_Water-DeployableName\", \"Water Purifier\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_WaterPurifier_T1/SM_DEP_WaterPurifier_T1B.SM_DEP_WaterPurifier_T1B",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_WATER_ITEM_SMALL.SFX_DEPLOY_WATER_ITEM_SMALL",
             "WorldPlacementType": "WaterPlacement",
@@ -5723,10 +5721,8 @@
         {
             "Name": "Water_Purifier_T1_Ground",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T1_Ground.BP_Water_Purifier_T1_Ground_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Water_Purifier_T1_2.T_ITEM_Water_Purifier_T1_2",
-            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Water_Purifier_T1_Ground-DeployableName\", \"Rain Collector\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_WaterPurifier_T1/SM_DEP_WaterPurifier_T1.SM_DEP_WaterPurifier_T1",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_THATCH.SFX_BLD_THATCH",
             "DeployCollisionLocationOffset": {
                 "Z": 25
             }
@@ -5735,15 +5731,13 @@
             "Name": "Water_Purifier_T2",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T2.BP_Water_Purifier_T2_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_WaterPurifier_T2/SM_DEP_WaterPurifier_T2.SM_DEP_WaterPurifier_T2",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_WATER_ITEM.SFX_DEPLOY_WATER_ITEM",
-            "WorldPlacementType": "WaterPlacement"
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
         },
         {
             "Name": "Water_Purifier_T4",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T4_Temp.BP_Water_Purifier_T4_Temp_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T4.BP_Water_Purifier_T4_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_WaterPurifier_T4/SM_DEP_WaterPurifier_T4.SM_DEP_WaterPurifier_T4",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_WATER_ITEM.SFX_DEPLOY_WATER_ITEM",
-            "WorldPlacementType": "WaterPlacement"
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM"
         },
         {
             "Name": "Lava_Hunter_Trophy",
@@ -5931,7 +5925,8 @@
             "Name": "Brutalist_Lamp",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Brutalist_Lamp.BP_Brutalist_Lamp_C",
             "PreviewStaticMesh": "/Game/ASS/DCO/Brutalist/DeskLamp_Brutalist/SM_DCO_DeskLamp_Brutalist.SM_DCO_DeskLamp_Brutalist",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_BRUTALIST.SFX_DEPLOY_BRUTALIST"
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_BRUTALIST.SFX_DEPLOY_BRUTALIST",
+            "MaxRestackingAmount": 1
         },
         {
             "Name": "Brutalist_CoffeeTable",
@@ -6807,7 +6802,6 @@
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Royal.BP_Animal_Bed_Royal_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Royal.SM_DEP_Animal_Bed_Royal",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
-            "bCanAffectNavigation": false,
             "DeployCollisionExtentOffset": {
                 "X": -60,
                 "Y": -60
@@ -6856,6 +6850,79 @@
                 "X": -60,
                 "Y": -60
             }
+        },
+        {
+            "Name": "Animal_Bed_Emperor",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Emperor.BP_Animal_Bed_Emperor_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Royal.SM_DEP_Animal_Bed_Royal",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Striker",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Striker.BP_Animal_Bed_Striker_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Fur_Var01.SM_DEP_Animal_Bed_Fur_Var01",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Leopard",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Leopard.BP_Animal_Bed_Leopard_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Fur_Var01.SM_DEP_Animal_Bed_Fur_Var01",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Tusker",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Tusker.BP_Animal_Bed_Tusker_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Fur_Var01.SM_DEP_Animal_Bed_Fur_Var01",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Zebra",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Zebra.BP_Animal_Bed_Zebra_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Fur_Var01.SM_DEP_Animal_Bed_Fur_Var01",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Hitching_Post",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Hitching_Post-DeployableName\", \"None\")",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false
+        },
+        {
+            "Name": "Snare_Trap",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Snare_Trap-DeployableName\", \"None\")",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false
+        },
+        {
+            "Name": "Animal_Bench",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_CraftingBench.BP_CraftingBench_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Crafting_Bench.SM_DEP_Crafting_Bench",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false
         }
     ]
 }
