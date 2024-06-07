@@ -302,8 +302,11 @@
         {
             "Name": "Turret",
             "AutoActivate": true,
-            "ResourceFlowRate": 1500,
-            "AutoShutoffFlowPercent": 99
+            "ResourceFlowRate": 3000,
+            "BrownOutModifier": {
+                "RowName": "Energy_Brownout_Turret"
+            },
+            "bAllowAutoRestart": true
         },
         {
             "Name": "Beehive",
@@ -358,8 +361,8 @@
         },
         {
             "Name": "Water_Trough_T4",
-            "AutoShutoffFlowPercent": 99,
-            "bAllowAutoRestart": true
+            "AutoActivate": true,
+            "AutoShutoffFlowPercent": 99
         },
         {
             "Name": "Purifier_T4",
@@ -367,9 +370,45 @@
         },
         {
             "Name": "Food_Trough_T4",
+            "AutoActivate": true,
             "ResourceFlowRate": 500,
             "AutoShutoffFlowPercent": 99,
             "bAllowAutoRestart": true
+        },
+        {
+            "Name": "Mission_Incubator",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "AutoShutoffFlowPercent": 99
+        },
+        {
+            "Name": "Water_Trough",
+            "FlowType": "Store",
+            "ResourceFlowRate": 250,
+            "bStorageIsInFlowOnly": true,
+            "AutoShutoffFlowPercent": 99
+        },
+        {
+            "Name": "Bulb",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 75,
+            "BrownOutModifier": {
+                "RowName": "Electronic_Light_Brownout"
+            },
+            "bAllowAutoRestart": true
+        },
+        {
+            "Name": "Electric_Oxite_Dissolver",
+            "AutoActivate": true,
+            "ResourceFlowRate": 1500,
+            "bAllowPushingResourceToInventory": true
+        },
+        {
+            "Name": "Charging_Device",
+            "AutoActivate": true,
+            "ResourceFlowRate": 500,
+            "AutoShutoffFlowPercent": 99
         }
     ]
 }
