@@ -3198,6 +3198,101 @@
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
+        },
+        {
+            "Name": "Food_Kiwi_Fruit",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50,
+                "(Value=\"BaseWaterRecovery_+\")": 60
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Kiwi_Fruit"
+                },
+                "ModifierLifetime": 600
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Meta_Kiwi_Fruit_Seed",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Kiwi_Fruit_Seed_Pack",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Food_Dried_Kiwifruit",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Dried_Kiwifruit"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Kiwifruit_Jam",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 75
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Kiwifruit_Jam"
+                },
+                "ModifierLifetime": 900
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume.",
+            "Byproducts": [
+                {
+                    "RowName": "Glass_Jar",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Food_Kiwifruit_Sorbet",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 100
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Kiwifruit_Sorbet"
+                },
+                "ModifierLifetime": 1800
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Fruit_Snack_Pack",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 25,
+                "(Value=\"BaseWaterRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Fruit_Snack_Pack"
+                },
+                "ModifierLifetime": 600
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Drink_Fruit_Smoothie",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Fruit_Smoothie"
+                },
+                "ModifierLifetime": 900
+            }
         }
     ]
 }

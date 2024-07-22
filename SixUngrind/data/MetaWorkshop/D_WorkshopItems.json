@@ -6653,23 +6653,16 @@
             "ResearchCost": [
                 {
                     "Meta": {
-                        "RowName": "Credits",
-                        "DataTableName": "D_MetaCurrency"
-                    },
-                    "Amount": 250
-                },
-                {
-                    "Meta": {
                         "RowName": "Exotic1",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 100
+                    "Amount": 500
                 }
             ],
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Credits",
+                        "RowName": "Exotic1",
                         "DataTableName": "D_MetaCurrency"
                     },
                     "Amount": 250
@@ -6795,6 +6788,44 @@
                     "RowName": "Laika"
                 }
             }
+        },
+        {
+            "Name": "Meta_CHAC_Pistol",
+            "Item": {
+                "RowName": "Pistol_CHAC"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 1000
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 500
+                },
+                {
+                    "Meta": {
+                        "RowName": "Exotic1",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
+                }
+            ]
         },
         {
             "Name": "Meta_Dog_A1",
@@ -7318,6 +7349,54 @@
                     "RowName": "Laika"
                 }
             }
+        },
+        {
+            "Name": "Meta_Pistol_Ammo",
+            "Item": {
+                "RowName": "Ammo_Pistol_Round_Workshop_Bundle"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 250
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 100
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Kiwi_Fruit",
+            "Item": {
+                "RowName": "Meta_Kiwi_Fruit_Seed"
+            },
+            "ResearchCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 50
+                }
+            ],
+            "ReplicationCost": [
+                {
+                    "Meta": {
+                        "RowName": "Credits",
+                        "DataTableName": "D_MetaCurrency"
+                    },
+                    "Amount": 20
+                }
+            ]
         }
     ]
 }

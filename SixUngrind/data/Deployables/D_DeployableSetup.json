@@ -7451,6 +7451,290 @@
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "bCanAffectNavigation": false,
             "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Wood_Railing_Gate_Refined_V2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Railing_Wood_Refined_Gate.BP_Railing_Wood_Refined_Gate_C",
+            "PreviewStaticMesh": "/Game/ASS/BLD/SM_BLD_Railing_Wood_INT_Gate.SM_BLD_Railing_Wood_INT_Gate",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Thatch_Railing_Gate",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Railing_Thatch_Gate.BP_Railing_Thatch_Gate_C",
+            "PreviewStaticMesh": "/Game/ASS/BLD/SM_BLD_Railing_Thatch_Gate.SM_BLD_Railing_Thatch_Gate",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Reinforced_Railing_Gate",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Railing_Reinforced_Gate.BP_Railing_Reinforced_Gate_C",
+            "PreviewStaticMesh": "/Game/ASS/BLD/SM_BLD_Railing_Wood_INT_Gate.SM_BLD_Railing_Wood_INT_Gate",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Iron_Railing_Gate",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Railing_Iron_Gate.BP_Railing_Iron_Gate_C",
+            "PreviewStaticMesh": "/Game/ASS/BLD/SM_BLD_Railing_Iron_Gate.SM_BLD_Railing_Iron_Gate",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Concrete_Railing_Gate",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Railing_Concrete_Gate.BP_Railing_Concrete_Gate_C",
+            "PreviewStaticMesh": "/Game/ASS/BLD/SM_BLD_Railing_Concrete_Gate.SM_BLD_Railing_Concrete_Gate",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Clay_Brick_Railing_Gate",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Railing_Clay_Brick_Gate.BP_Railing_Clay_Brick_Gate_C",
+            "PreviewStaticMesh": "/Game/ASS/BLD/SM_BLD_Railing_Brick_Gate.SM_BLD_Railing_Brick_Gate",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Kiwi_Nest",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Creatures/BP_Deployable_Kiwi_Nest.BP_Deployable_Kiwi_Nest_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Nest_Kiwi/SM_DEP_Nest_Kiwi.SM_DEP_Nest_Kiwi",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE_SMALL.SFX_BLD_STONE_SMALL",
+            "DeployCollisionExtentOffset": {
+                "X": -50,
+                "Y": -50,
+                "Z": -50
+            }
+        },
+        {
+            "Name": "Farming_Mound_Kiwi_Fruit",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Farming/BP_Crop_Plot_Mound.BP_Crop_Plot_Mound_C",
+            "PreviewStaticMesh": "/Game/ASS/ENV/HRB/Crop_Kiwifruit/SM_HRB_KiwiFruit_Stage5.SM_HRB_KiwiFruit_Stage5",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_CORN_SOW.SFX_FARMING_CORN_SOW",
+            "ItemAddedSounds": {
+                "(RowName=\"Basic_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER",
+                "(RowName=\"Speed_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER",
+                "(RowName=\"Yield_Fertilizer\",DataTableName=\"D_ItemsStatic\")": "/Game/FMOD/Events/SFX/Farming/SFX_FARMING_ADD_FERTILIZER.SFX_FARMING_ADD_FERTILIZER"
+            },
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "CropPlot"
+            ],
+            "SnapSocketsOrTags": [
+                "CropSnappingPoint"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Kiwi_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Kiwi.BP_Trophy_Kiwi_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Kiwi/SM_DEP_Trophy_Kiwi.SM_DEP_Trophy_Kiwi",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Monitoring_Pylon",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Monitoring_Pylon.BP_Monitoring_Pylon_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Laser_Uplink.SM_DEP_Laser_Uplink",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Mission_DeployableSnapActor"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Aerosol_Emitter",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Aerosol_Emitter.BP_Aerosol_Emitter_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Analyzer_Transmitter.SM_DEP_Analyzer_Transmitter",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Mission_DeployableSnapActor"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Liquid_Deployment",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_Liquid_Deployment.BP_Liquid_Deployment_C",
+            "PreviewStaticMesh": "/Game/Assets/3DArt/Interactables/Items/SM_Mound_CollisionForSnap.SM_Mound_CollisionForSnap",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Character/Movement/SFX_CHAR_ENTER_WATER.SFX_CHAR_ENTER_WATER",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "HideInvalidPlacementPreview": true,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Mission_DeployableSnapActor2"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Black_Wolf_Trophy_Wall",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_BlackWolf_Running.BP_Trophy_BlackWolf_Running_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Black_Wolf/SM_DEP_Trophy_BlackWolf_Running.SM_DEP_Trophy_BlackWolf_Running",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "WorldPlacementType": "WallPlacement"
+        },
+        {
+            "Name": "Black_Wolf_Trophy_Howl",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_BlackWolf_Howling.BP_Trophy_BlackWolf_Howling_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Black_Wolf/SM_DEP_Trophy_BlackWolf_Howling.SM_DEP_Trophy_BlackWolf_Howling",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
+        },
+        {
+            "Name": "Black_Wolf_Trophy_Sit",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_BlackWolf_Guarding.BP_Trophy_BlackWolf_Guarding_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Black_Wolf/SM_DEP_Trophy_BlackWolf_Guarding.SM_DEP_Trophy_BlackWolf_Guarding",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
+        },
+        {
+            "Name": "Black_Wolf_Trap",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Defences/BP_Black_Wolf_Trap.BP_Black_Wolf_Trap_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Trap_Black_Wolf.SM_DEP_Trap_Black_Wolf",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Scorpion_Boss_Trophy_Chair",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Scorpion_Boss_Trophy_Chair.BP_Scorpion_Boss_Trophy_Chair_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Scorpion_Boss/SM_DEP_Trophy_ScorpionBoss_Throne.SM_DEP_Trophy_ScorpionBoss_Throne",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM"
+        },
+        {
+            "Name": "Scorpion_Boss_Trophy_Hanging",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Scorpion_Boss_Hanging.BP_Trophy_Scorpion_Boss_Hanging_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Scorpion_Boss/SM_DEP_Trophy_ScorpionBoss_Chains.SM_DEP_Trophy_ScorpionBoss_Chains",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
+        },
+        {
+            "Name": "Scorpion_Boss_Trophy_Tail",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Scorpion_Boss_Tail.BP_Trophy_Scorpion_Boss_Tail_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Scorpion_Boss/SM_DEP_Trophy_ScorpionBoss_Tail.SM_DEP_Trophy_ScorpionBoss_Tail",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
+        },
+        {
+            "Name": "Lava_Hunter_Mine",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/WorldObjects/Missions/BP_Landmine.BP_Landmine_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Landmine.SM_DEP_Landmine",
+            "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Landmine/SFX_DEPLOY_LANDMINE.SFX_DEPLOY_LANDMINE",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Lava_Hunter_Trophy_Chair",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Scorpion_Boss_Trophy_Chair.BP_Scorpion_Boss_Trophy_Chair_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Scorpion_Boss/SM_DEP_Trophy_ScorpionBoss_Throne.SM_DEP_Trophy_ScorpionBoss_Throne",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM"
+        },
+        {
+            "Name": "Lava_Hunter_Trophy_Feature",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_BlackWolf_Guarding.BP_Trophy_BlackWolf_Guarding_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Black_Wolf/SM_DEP_Trophy_BlackWolf_Guarding.SM_DEP_Trophy_BlackWolf_Guarding",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
+        },
+        {
+            "Name": "Slug_Trophy_Vial",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Scorpion_Boss_Tail.BP_Trophy_Scorpion_Boss_Tail_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Scorpion_Boss/SM_DEP_Trophy_ScorpionBoss_Tail.SM_DEP_Trophy_ScorpionBoss_Tail",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
+        },
+        {
+            "Name": "Slug_Trophy_Habitat",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Scorpion_Boss_Tail.BP_Trophy_Scorpion_Boss_Tail_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Scorpion_Boss/SM_DEP_Trophy_ScorpionBoss_Tail.SM_DEP_Trophy_ScorpionBoss_Tail",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
+        },
+        {
+            "Name": "Slug_Trophy_Coil",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Scorpion_Boss_Tail.BP_Trophy_Scorpion_Boss_Tail_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Scorpion_Boss/SM_DEP_Trophy_ScorpionBoss_Tail.SM_DEP_Trophy_ScorpionBoss_Tail",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
         }
     ]
 }

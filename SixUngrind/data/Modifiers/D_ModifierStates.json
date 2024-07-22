@@ -2399,7 +2399,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Wine",
@@ -2416,7 +2417,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "DeathRun",
@@ -3279,7 +3281,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Coconut",
@@ -3497,7 +3500,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Cooked_Pumpkin",
@@ -3519,7 +3523,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Cooked_Squash",
@@ -3541,7 +3546,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Cooked_Carrot",
@@ -3563,7 +3569,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Cooked_Mushroom",
@@ -3585,7 +3592,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Corn_Soup",
@@ -3607,7 +3615,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Mushroom_Soup",
@@ -3629,7 +3638,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Fruit_Salad",
@@ -3653,7 +3663,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Wild_Salad",
@@ -3676,7 +3687,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Meat_Stew",
@@ -3696,7 +3708,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Fried_Soy_Beans",
@@ -3721,7 +3734,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Fish_Dish",
@@ -3744,7 +3758,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Roasted_Vegetables",
@@ -3768,7 +3783,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Creamed_Corn",
@@ -3791,7 +3807,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "FlatBread",
@@ -3835,7 +3852,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Meat_Pie",
@@ -3855,7 +3873,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Vegetable_Pie",
@@ -3881,7 +3900,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Bread",
@@ -3922,7 +3942,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Crumbed_Fish",
@@ -3946,7 +3967,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Picked_Carrot",
@@ -4008,8 +4030,7 @@
                         "TagName": "ModifierState.Medicine.Antibiotic.T3"
                     }
                 ]
-            },
-            "bEffectsNPCs": false
+            }
         },
         {
             "Name": "Antiparasitic_Vaccine",
@@ -4023,8 +4044,7 @@
                         "TagName": "ModifierState.Medicine.Antiparasitic.T3"
                     }
                 ]
-            },
-            "bEffectsNPCs": false
+            }
         },
         {
             "Name": "Antipoison_Vaccine",
@@ -4038,8 +4058,7 @@
                         "TagName": "ModifierState.Medicine.Antipoison.T3"
                     }
                 ]
-            },
-            "bEffectsNPCs": false
+            }
         },
         {
             "Name": "Blood_Thinning_Vaccine",
@@ -4053,8 +4072,7 @@
                         "TagName": "ModifierState.Medicine.Bloodthinner.T3"
                     }
                 ]
-            },
-            "bEffectsNPCs": false
+            }
         },
         {
             "Name": "Reignite_Chance_Reduction",
@@ -5187,7 +5205,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Cooked_Tomato",
@@ -5209,7 +5228,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Hearty_Salad",
@@ -5232,7 +5252,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Tomato_Soup",
@@ -5254,7 +5275,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Picked_Tomato",
@@ -5303,7 +5325,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Potato_Bread",
@@ -5326,7 +5349,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Shepherds_Pie",
@@ -5346,7 +5370,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Cooked_Soy_Bean",
@@ -5368,7 +5393,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Health_Enhancement_Tonic",
@@ -5651,7 +5677,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Dried_Avocado",
@@ -5673,7 +5700,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Dried_Rhubarb",
@@ -5696,7 +5724,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Cooked_Rhubarb",
@@ -5718,7 +5747,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Cooked_Kumara",
@@ -5740,7 +5770,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Stuffed_Avocado",
@@ -5764,7 +5795,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Mixed_Berries",
@@ -5787,7 +5819,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Rhubarb_Stew",
@@ -5811,7 +5844,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Fried_Chunky_Vegetables",
@@ -5835,7 +5869,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Pickled_Avocado",
@@ -5858,7 +5893,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Strawberry_Jam",
@@ -5881,7 +5917,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Shepherds_Roll",
@@ -5902,7 +5939,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Savory_Roll",
@@ -5923,7 +5961,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Vegetable_Roll",
@@ -5949,7 +5988,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Fruit_Muffin",
@@ -5972,7 +6012,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Lava",
@@ -6018,7 +6059,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Fish_Chunk_Stew",
@@ -6043,7 +6085,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Dried_Freshwater_Fillet",
@@ -6067,7 +6110,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Dried_Saltwater_Fillet",
@@ -6091,7 +6135,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Freshwater_Fillet_Curry",
@@ -6114,7 +6159,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Saltwater_Fillet_Sashimi",
@@ -6139,7 +6185,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Pickled_Freshwater_Fillet",
@@ -6158,7 +6205,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Crumbed_Saltwater_Fillet",
@@ -6183,7 +6231,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Fish_Fillet_Pie",
@@ -6208,7 +6257,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "SpikedBrambles",
@@ -6326,7 +6376,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Grilled_Saltwater_Fillet",
@@ -6349,7 +6400,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Tearing_Fish",
@@ -7213,7 +7265,10 @@
             "Name": "Plant_Outside",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-sun.icon-weather-sun'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Plant_Outside-ModifierName\", \"Sunlight\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Plant_Outside-ModifierDescription\", \"Plant is growing at its normal speed thanks to having access to sunlight.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Plant_Outside-ModifierDescription\", \"Plant is growing faster thanks to having access to sunlight.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropGrowthSpeed_+%\")": 20
+            },
             "MergeType": "Replace",
             "bEffectsObjects": true,
             "bEffectsNPCs": false,
@@ -7226,7 +7281,7 @@
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Plant_No_Sun-ModifierName\", \"Lacking Sunlight\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Plant_No_Sun-ModifierDescription\", \"Growth Speed decreased due to the lack of sunlight.\")",
             "GrantedStats": {
-                "(Value=\"BasePlantedCropGrowthSpeed_+%\")": -50
+                "(Value=\"BasePlantedCropGrowthSpeed_+%\")": -20
             },
             "MergeType": "Replace",
             "bEffectsObjects": true,
@@ -7274,7 +7329,7 @@
         },
         {
             "Name": "Fertilizer_Basic",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_FertilizeBasic.T_ICON_FertilizeBasic'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Modifier_Fertiliser_1.T_ICON_Modifier_Fertiliser_1'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Basic-ModifierName\", \"Basic Fertilizer\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Basic-ModifierDescription\", \"Provides a small bonus to growth speed and crop yield\")",
             "GrantedStats": {
@@ -7300,7 +7355,7 @@
         },
         {
             "Name": "Fertilizer_Yeild",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_FertilizeYield.T_ICON_FertilizeYield'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Modifier_Fertiliser_2.T_ICON_Modifier_Fertiliser_2'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Yeild-ModifierName\", \"High-Quality Fertilizer\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Yeild-ModifierDescription\", \"Increases the yield of your crops\")",
             "GrantedStats": {
@@ -7326,7 +7381,7 @@
         },
         {
             "Name": "Fertilizer_Speed",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_FertilizeSpeed.T_ICON_FertilizeSpeed'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Modifier_Fertiliser_3.T_ICON_Modifier_Fertiliser_3'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Speed-ModifierName\", \"Growth Fertilizer\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Speed-ModifierDescription\", \"Helps your crops to grow faster\")",
             "GrantedStats": {
@@ -7573,6 +7628,7 @@
                 }
             ],
             "MergeType": "LongestDuration",
+            "bEffectsPlayers": false,
             "RemovedOnClick": true
         },
         {
@@ -7923,7 +7979,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "Animal_Feed_CarryWeight",
@@ -7944,7 +8001,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "Smoked_Giant_Steak",
@@ -8124,7 +8182,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Smoked_Saltwater_Fillet",
@@ -8150,7 +8209,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Dried_Meat_Generic",
@@ -8173,7 +8233,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Smoked_Meat_Generic",
@@ -8196,7 +8257,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Honey_Jar",
@@ -8239,7 +8301,7 @@
             "Name": "Smoked_Bacon",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_SmokedBacon.ITEM_SmokedBacon'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Bacon-ModifierName\", \"Honey Smoked Bacon\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Bacon-ModifierDescription\", \"Boosts Stamina, Health Regen, Experiance. Also reduces food consumption.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Bacon-ModifierDescription\", \"Boosts Stamina, Health Regen, Experience. Also reduces food consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
                 "(Value=\"BaseMaximumStamina_+\")": 75,
@@ -8514,7 +8576,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "Replace"
+            "MergeType": "Replace",
+            "bEffectsNPCs": false
         },
         {
             "Name": "Honey_Bar",
@@ -9050,7 +9113,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "ExoticDebuff",
@@ -9889,7 +9953,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "Animal_Feed_Pumpkin",
@@ -9911,7 +9976,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "Animal_Feed_Potato",
@@ -9933,7 +9999,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "Animal_Feed_Corn",
@@ -9955,7 +10022,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "Animal_Feed_Carrot",
@@ -9977,7 +10045,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "Animal_Feed_Mushroom",
@@ -9999,7 +10068,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "Animal_Feed_Bean",
@@ -10021,7 +10091,8 @@
                     "Value": "FoodModifierDuration_+%"
                 }
             ],
-            "MergeType": "LongestDuration"
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
         },
         {
             "Name": "Tame_Hunger_1_Sheep",
@@ -10355,6 +10426,386 @@
             "bEffectsNPCs": false,
             "bEffectsPlayers": false,
             "SaveToDatabase": false
+        },
+        {
+            "Name": "Kiwi_Fruit",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Kiwi_Fruit.ITEM_Kiwi_Fruit'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwi_Fruit-ModifierName\", \"Kiwi Fruit\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwi_Fruit-ModifierDescription\", \"Provides Stamina and Cave Sickness Resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 50,
+                "(Value=\"BasePneumoniaResistance_%\")": 5
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Dried_Kiwifruit",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Kiwifruit_Chips.T_ITEM_Kiwifruit_Chips'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Kiwifruit-ModifierName\", \"Dried Kiwifruit Chips\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dried_Kiwifruit-ModifierDescription\", \"Provides Stamina and Cave Sickness Resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BasePneumoniaResistance_%\")": 10,
+                "(Value=\"BaseFoodConsumption_+%\")": -25
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Kiwifruit_Jam",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Kiwifruit_Jam.T_ITEM_Kiwifruit_Jam'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Jam-ModifierName\", \"Kiwifruit Jam\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Jam-ModifierDescription\", \"Provides a large Stamina boost, extra experience and Cave Sickness Resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 125,
+                "(Value=\"BaseExperience_+%\")": 20,
+                "(Value=\"BasePneumoniaResistance_%\")": 20
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Kiwifruit_Sorbet",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Kiwifruit_Sorbet.T_ITEM_Kiwifruit_Sorbet'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Sorbet-ModifierName\", \"Kiwifruit Sorbet\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Kiwifruit_Sorbet-ModifierDescription\", \"Provides a large Stamina boost, extra experience and large Cave Sickness Resistance.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseExperience_+%\")": 30,
+                "(Value=\"BasePneumoniaResistance_%\")": 45
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Fruit_Snack_Pack",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Snack_Pack.T_ITEM_Snack_Pack'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Snack_Pack-ModifierName\", \"Fruit Snack Pack\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Snack_Pack-ModifierDescription\", \"A collect of fruit which provides a variety of buffs.\")",
+            "GrantedStats": {
+                "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
+                "(Value=\"BasePneumoniaResistance_%\")": 15,
+                "(Value=\"BaseWaterConsumption_+%\")": -10
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Fruit_Smoothie",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Thermos.ITEM_Thermos'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Smoothie-ModifierName\", \"Fruit Smoothie\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fruit_Smoothie-ModifierDescription\", \"Refreshing tangy drink.\")",
+            "GrantedStats": {
+                "(Value=\"BaseExperience_+%\")": 10,
+                "(Value=\"BasePneumoniaResistance_%\")": 30
+            },
+            "ModifierEffectivenessAffectors": [
+                {
+                    "Value": "FruitAndVegeModifierEffectiveness_+%"
+                }
+            ],
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FoodModifierDuration_+%"
+                }
+            ],
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "Crop_Unsuitability_Volcanic",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Biome.Icon_Biome'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Volcanic-ModifierName\", \"Volcanic Biome Unsuitability\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Volcanic-ModifierDescription\", \"Crop is not suitable for the Volcanic biome. The crop will wither quickly once it is fully grown. Build a greenhouse to remove this penalty.\")",
+            "GrantedStats": {
+                "(Value=\"BaseCropWitherSpeed_+%\")": 500
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Crop_Unsuitability_Grasslands",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Biome.Icon_Biome'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Grasslands-ModifierName\", \"Grasslands Biome Unsuitability\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Grasslands-ModifierDescription\", \"Crop is not suitable for the Grasslands biome. A large portion of the harvest will be spoiled. Build a greenhouse to remove this penalty.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropGrowthSpeed_+%\")": -60
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Crop_Unsuitability_Conifer",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Biome.Icon_Biome'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Conifer-ModifierName\", \"Forest Biome Unsuitability\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Conifer-ModifierDescription\", \"Crop is not suitable for the Forest biome. Crop will have significantly reduced yield. Build a greenhouse to remove this penalty.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropYield_+%\")": -60
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Crop_Unsuitability_Desert",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Biome.Icon_Biome'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Desert-ModifierName\", \"Desert Biome Unsuitability\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Desert-ModifierDescription\", \"Crop is not suitable for the Desert biome. Harvested crops will spoil faster than usual. Build a greenhouse to remove this penalty.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropHarvestedItemSpoilTime_+%\")": -80
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Crop_Unsuitability_Swamp",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Biome.Icon_Biome'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Swamp-ModifierName\", \"Swamp Biome Unsuitability\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Swamp-ModifierDescription\", \"Crop is not suitable for the Swamp biome. Harvested crops will have a bacterial infection which reduces food effectiveness. Build a greenhouse to remove this penalty.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropHarvestedItemAlreadySpoiled_%\")": 60
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Crop_Unsuitability_Arctic",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Biome.Icon_Biome'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Arctic-ModifierName\", \"Arctic Biome Unsuitability\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Crop_Unsuitability_Arctic-ModifierDescription\", \"Crops will not grow outside greenhouses in the Arctic.\")",
+            "GrantedStats": {
+                "(Value=\"BaseCropGrowthRate_+%\")": -100000
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Dirt_Mound_Assembled",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Dirt_Mound.T_ITEM_Dirt_Mound'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Assembled-ModifierName\", \"Dirt Mound\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Assembled-ModifierDescription\", \"Rough dirt pile made by hand and dirt.\")",
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Dirt_Mound_Wood_Shovel",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Stone_Shovel.T_ITEM_Stone_Shovel'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Wood_Shovel-ModifierName\", \"Dug with a Wooden Shovel\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Wood_Shovel-ModifierDescription\", \"Rough dirt pile made with a Wooden Shovel.\")",
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Dirt_Mound_Iron_Shovel",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Shovel.ITEM_Shovel'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Iron_Shovel-ModifierName\", \"Dug with an Iron Shovel\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Iron_Shovel-ModifierDescription\", \"Simple dirt pile made with an Iron Shovel.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropYield_+%\")": 10
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Dirt_Mound_Platinum_Shovel",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Platinium_Shovel.T_ITEM_Platinium_Shovel'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Platinum_Shovel-ModifierName\", \"Dug with a Platinum Shovel\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Platinum_Shovel-ModifierDescription\", \"Advanced dirt pile made with a Platinum Shovel.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropYield_+%\")": 20
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Dirt_Mound_Titanium_Shovel",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Titanium_Shovel.T_ITEM_Titanium_Shovel'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Titanium_Shovel-ModifierName\", \"Dug with a Titanium Shovel\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Titanium_Shovel-ModifierDescription\", \"Exceptional dirt pile made with a Titanium Shovel.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropYield_+%\")": 20,
+                "(Value=\"BasePlantedCropSpoilRate_+%\")": -20
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Dirt_Mound_Meta_Shovel",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Workshop_Shovel.T_ITEM_Workshop_Shovel'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Meta_Shovel-ModifierName\", \"Dug with The Excavator\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Meta_Shovel-ModifierDescription\", \"Premium dirt pile made with The Excavator.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropCannotSpoil_?\")": 1
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Dirt_Mound_Ploughed",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Saddle_Cart_Plough.T_ITEM_Saddle_Cart_Plough'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Ploughed-ModifierName\", \"Dug with a Seeding Cart\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dirt_Mound_Ploughed-ModifierDescription\", \"Rough dirt pile made with a Plough pulled by an Animal.\")",
+            "GrantedStats": {
+                "(Value=\"BasePlantedCropYield_+%\")": 10
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "OverlyAlert",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/HUD/StealthEyeVisible.StealthEyeVisible'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"OverlyAlert-ModifierName\", \"Overly Alert\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"OverlyAlert-ModifierDescription\", \"This creature is alerted.\")",
+            "GrantedStats": {
+                "(Value=\"BaseAIPerceptionPerceptionRadius_+%\")": 100,
+                "(Value=\"BaseMovementSpeed_+%\")": 50
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Fertilizer_Recovery",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Modifier_Fertiliser_4.T_ICON_Modifier_Fertiliser_4'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Recovery-ModifierName\", \"Recovery Fertilizer\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Recovery-ModifierDescription\", \"Helps your crops to recover quality faster.\")",
+            "GrantedStats": {
+                "(Value=\"BaseCropQualityRecovery_+%\")": 200
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FertilizerConsumption_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Farming.Plant.Fertalized"
+                    }
+                ]
+            },
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Fertilizer_Resistance",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Modifier_Fertiliser_5.T_ICON_Modifier_Fertiliser_5'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Resistance-ModifierName\", \"Resistance Fertilizer\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Fertilizer_Resistance-ModifierDescription\", \"Helps your crops retain quality during storms.\")",
+            "GrantedStats": {
+                "(Value=\"BaseCropStormResistance_+%\")": 50
+            },
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FertilizerConsumption_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Farming.Plant.Fertalized"
+                    }
+                ]
+            },
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false
         }
     ]
 }

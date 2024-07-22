@@ -6036,6 +6036,76 @@
                 ],
                 "AutoDescription": " ANY( Foliage.PermitRockRestore )"
             }
+        },
+        {
+            "Name": "Building_Stone_Brick",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Building.StoneBrick"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Buildable, Building.StoneBrick )"
+            }
+        },
+        {
+            "Name": "Mission_MonitoringPylon",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Ore.Sulfur"
+                    },
+                    {
+                        "TagName": "Item.Resource.Stone"
+                    },
+                    {
+                        "TagName": "Item.Resource.Ore.Gold"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ANY( Item.Resource.Ore.Sulfur, Item.Resource.Stone, Item.Resource.Ore.Gold )"
+            }
+        },
+        {
+            "Name": "Any_Seed_Or_Fertalizer",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Seed"
+                    },
+                    {
+                        "TagName": "Item.Fertilizer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Seed, Item.Fertilizer )"
+            }
         }
     ]
 }

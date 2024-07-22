@@ -1711,6 +1711,20 @@
             "SkinningXPEvent": {
                 "RowName": "Skin_Eagle"
             }
+        },
+        {
+            "Name": "IceBreaker",
+            "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"IceBreaker-CreatureName\", \"Ice Breaker\")",
+            "Tag": {
+                "TagName": "NPC.IceBreaker"
+            }
+        },
+        {
+            "Name": "RockGolem",
+            "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"RockGolem-CreatureName\", \"Rock Golem\")",
+            "Tag": {
+                "TagName": "NPC.RockGolem"
+            }
         }
     ]
 }
